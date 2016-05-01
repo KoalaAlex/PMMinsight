@@ -8,3 +8,11 @@ function scrollToPreword(){
   event.preventDefault();
   return false;
 }
+
+$(document).ready(function() {
+  var url = window.location.href;
+  if(url.indexOf('#load:') != -1) {
+    $('#portfolioModal' + url.substr(url.lastIndexOf(':') + 1, url.length)).modal('show');
+  }
+
+});
