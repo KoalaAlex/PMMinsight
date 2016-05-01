@@ -1,0 +1,35 @@
+#logo-start {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center; }
+
+  #logo-start  button#logo-scroll {
+    position: absolute;
+    bottom: 50px;
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+/* Navbar */
+.navbar-default {
+    top: -55px;
+    background-color: transparent;
+    -webkit-transition: top .5s;
+    -moz-transition: top .5s;
+    transition: top .5s;
+    background-color: #222;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 3px;
+}
+
+.navbar-default.navbar-shrink {
+  top: 0px;
+}
