@@ -40,7 +40,7 @@ googleAnalytics = ""
 		preword = "Vorwort"
 		portfolio = "Portfolio"
 		about = "About"
-		team = "Team"
+		theme = "Theme"
 		contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -142,6 +142,35 @@ googleAnalytics = ""
 			date = "July 2014"
 			title = "Phase Two Expansion"
 			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+	# Services section
+	[params.theme]
+				enable = true
+		title = "Theme"
+		subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+				[[params.theme.row]]
+
+						[[params.theme.row.list]]
+								title = "Theme 1"
+								id = "theme1"
+								description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+						[[params.theme.row.list]]
+								title = "Theme 2"
+								id = "theme2"
+								description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+						[[params.theme.row.list]]
+								title = "Theme 3"
+								id = "theme3"
+								description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+						[[params.theme.row.list]]
+								title = "Theme 4"
+								id = "theme4"
+								description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
 
 
 	# Team section

@@ -36,10 +36,14 @@
                 </li>
                 {{ end }}
 
-                {{ if .Site.Params.team.enable }}
+                {{ if .Site.Params.theme.enable }}
+                {{ range .Site.Params.theme.row }}
+                {{ range .list }}
                 <li>
-                    <a class="page-scroll" href="#team">{{ with .Site.Params.navigation.team }}{{ . | markdownify }}{{ end }}</a>
+                    <a class="page-scroll" href="#{{ .id }}">{{ .title | markdownify }}</a>
                 </li>
+                {{ end }}
+                {{ end }}
                 {{ end }}
             </ul>
         </div>

@@ -10,6 +10,7 @@
  */
 
  var changeHeaderOn = $(window).height();
+ var $navbarCollapse = $('#bs-example-navbar-collapse-1');
 
  $( window ).resize(function() {
    changeHeaderOn = $(window).height();
@@ -37,6 +38,7 @@ var cbpAnimatedHeader = (function() {
 		}
 		else {
 			classie.remove( header, 'navbar-shrink' );
+      $navbarCollapse.removeClass('in');
 		}
 		didScroll = false;
 	}

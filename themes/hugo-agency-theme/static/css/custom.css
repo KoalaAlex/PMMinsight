@@ -23,7 +23,6 @@
     -webkit-transition: top .5s;
     -moz-transition: top .5s;
     transition: top .5s;
-    background-color: #222;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -32,4 +31,65 @@
 
 .navbar-default.navbar-shrink {
   top: 0px;
+}
+
+.navbar-default .navbar-header {
+    background-color: #222;
+}
+
+.navbar-default .navbar-collapse {
+  width: 500px;
+  float: right;
+  background-color: #222;
+}
+
+@media (min-width: 768px){
+  .navbar-toggle {
+      display: block;
+  }
+
+  .navbar-collapse.collapse {
+      display: none !important;
+  }
+
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-collapse.collapse.in{
+    display: block !important;
+  }
+
+  .navbar-right{
+    float: none !important;
+  }
+  .navbar-nav>li {
+    float: none !important;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .navbar-collapse{
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+  }
+
+  #page-top .navbar .container {
+    width: 100%;
+  }
+
+  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    margin-left: 0px;
+  }
+}
+
+#themes ul {
+  list-style: none;
+  padding-left: 0px;
 }

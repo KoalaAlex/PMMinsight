@@ -13,9 +13,7 @@
             {{ partial "portfolio.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.team.enable }}
-            {{ partial "team.html" . }}
-        {{ end }}
+        {{ partial "theme.html" . }}
 
         {{ if .Site.Params.clients_list.enable }}
             {{ partial "clients.html" . }}

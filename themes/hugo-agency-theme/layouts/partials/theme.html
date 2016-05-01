@@ -1,0 +1,19 @@
+{{ "<!-- Theme -->" | safeHTML }}
+<section id="themes">
+<ul>
+{{ range .Site.Params.theme.row }}
+{{ range .list }}
+<li id="{{ .id }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ .title | markdownify }}</h2>
+                <h3 class="section-subheading text-muted">{{ .description | markdownify }}</h3>
+            </div>
+        </div>
+    </div>
+</li>
+{{ end }}
+{{ end }}
+<ul>
+</section>
