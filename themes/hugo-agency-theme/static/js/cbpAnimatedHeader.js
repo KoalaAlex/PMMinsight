@@ -20,6 +20,7 @@ var cbpAnimatedHeader = (function() {
 
 	var docElem = document.documentElement,
 		header = document.querySelector( '.navbar-default' ),
+    footerBar = document.querySelector( '#footer-bar' ),
 		didScroll = false;
 
 	function init() {
@@ -33,11 +34,14 @@ var cbpAnimatedHeader = (function() {
 
 	function scrollPage() {
 		var sy = scrollY();
+    // shows the navbar only when it is scrolled more than the value in 'changeHeaderOn'
 		if ( sy >= changeHeaderOn ) {
 			classie.add( header, 'navbar-shrink' );
+      classie.add(footerBar, 'show');
 		}
 		else {
 			classie.remove( header, 'navbar-shrink' );
+      classie.remove(footerBar, 'show');
       $navbarCollapse.removeClass('in');
 		}
 		didScroll = false;
