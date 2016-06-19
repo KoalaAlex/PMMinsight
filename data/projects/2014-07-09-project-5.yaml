@@ -1,4 +1,4 @@
-modalID: achmet
+modalID: bartu
 title: Escape
 subtitle: Lorem ipsum dolor sit amet consectetur.
 date: 2014-07-08
@@ -8,7 +8,10 @@ client: Start Bootstrap
 clientLink: "#"
 category: Website Design
 description: Escape is a free PSD web template built by [Mathavan Jaya](//www.behance.net/MathavanJaya). Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services. <br><br>You can download the PSD template in this portfolio sample item at [FreebiesXpress.com](//freebiesxpress.com/gallery/escape-one-page-psd-web-template/).
-name: default-Name
-content: default-Content
-cv: default-CV
-skills: default-Skills
+name: BARTU
+
+content: <ol><li><b>Wenn ich mit der HdM fertig bin,</b> möchte ich eine Arbeitsstelle finden, bei der ich mein Wissen in der Praxis einsetzen und mit meiner Motivation und meinem Ehrgeiz durchstarten kann.</li><li><b>In der Prüfungsphase,</b> freue ich mich auf die Ferien – ein Lichtblick nach einer stressigen Phase.</li><li><b>Medien, die ich alltäglich benutze,</b> sind Facebook und Instagram.</li></ol>
+
+cv: 2013<br>Allgemeine Hochschulreife<br>Wilhelm-Schickard-Schule, Tübingen<br><br><b>Praktische Erfahrung:</b><br>11/2013 – 08/2014<br>FSJ<br>Kindergarten Kinderhaus, Bebenhausen
+
+skills: <ul><li><b>Sprachbegabt</b> – Ich spreche fließend Englisch und Türkisch.<li><b>Planung</b> – Meine Stärken sind im rechnerischen Bereich und im Organisieren von Events.</li><li><b>Handwerklich begabt</b> – Neben der Hochschule und dem Nebenjob arbeite ich gerne als Hobby-KfZler an älteren Gegenständen, die aufgepeppt und restauriert werden können, wie beispielsweise alte Klappräder oder Autos.</li></ul>

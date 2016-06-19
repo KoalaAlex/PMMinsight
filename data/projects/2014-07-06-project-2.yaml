@@ -1,4 +1,4 @@
-modalID: peter
+modalID: vanessa
 title: Startup Framework
 subtitle: Lorem ipsum dolor sit amet consectetur.
 date: 2014-07-06
@@ -8,7 +8,10 @@ client: Start Bootstrap
 clientLink: "#"
 category: Website Design
 description: "[Startup Framework](//designmodo.com/startup/?u=787) is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects. <br><br>You can preview Startup Framework [here](//designmodo.com/startup/?u=787)."
-name: default-Name
-content: default-Content
-cv: default-CV
-skills: default-Skills
+name: VANESSA
+
+content: <ol><li><b>Wenn ich an das erste Semester denke,</b> denke ich an viele neue Menschen, viele Informationen, an die erste Kneipentour und an die erste Prüfungsphase, in der noch niemand richtig wusste wie was funktioniert.</li><li><b>Seit ich an der HdM bin,</b> weiß ich wie wichtig es ist sich selbst organisieren zu können. Ich verbringe viel Zeit in der Lernwelt der HdM und mag seitdem auch Automatenkaffee.</li><li><b>In der Prüfungsphase</b> nimmt mein Karteikarten-, Kugelschreiber- und Kaffeekonsum exponentiell zu, meine Nerven hingegen ab.</li></ol>
+
+cv: <b>Ausbildung:</b><br>08/2008 – 07/2011<br>Staatlich geprüfte Grafik-Designerin, Fachhochschulreife Bernd-Blindow-Schulen, Friedrichshafen
+
+skills: <ul><li><b>Texten, gestalten, designen</b> - Das sind Tätigkeiten denen ich gerne nachgehe. Mein Ideenreichtum und meine Kreativität sind dafür sehr hilfreich und zeichnen mich aus. Durch meine Ausbildung konnte ich mein Wissen über die Adobe Programme Photoshop, Adobe InDesign und Adobe Illustrator vertiefen.<li><b>Kommunikativ und teamfähig</b> - Ich arbeite seit vielen Jahren in der Gastronomie und komme mit den unterschiedlichsten Charakteren in Berührung. Die Arbeit im Team und der Umgang mit Kunden macht mir sehr viel Spaß.</li><li><b>Sprachenbegabt</b> - Französisch war meine erste Fremdsprache auf dem Gymnasium. Somit hatte ich sieben Jahre Unterricht in Französisch und fünf Jahre in Englisch.</li></ul>

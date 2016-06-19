@@ -1,4 +1,4 @@
-modalID: tobi
+modalID: vasiliki
 title: Golden
 subtitle: Lorem ipsum dolor sit amet consectetur.
 date: 2014-07-09
@@ -8,7 +8,10 @@ client: Start Bootstrap
 clientLink: "#"
 category: Website Design
 description: Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by [Mathavan Jaya](//www.behance.net/MathavanJaya). Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs. <br><br>You can download the PSD template in this portfolio sample item at [FreebiesXpress.com](//freebiesxpress.com/gallery/golden-free-one-page-web-template/).
-name: default-Name
-content: default-Content
-cv: default-CV
-skills: default-Skills
+name: VASILIKI
+
+content: <ol><li><b>Seit ich an der HdM bin,</b> habe ich gelernt mehr und konzentrierter zu lernen und auf eigenen Beinen zu stehen.</li><li><b>Wenn ich mit der HdM fertig bin,</b> möchte ich gerne eine gute Arbeitsstelle im Marketingbereich und mein Wissen in der Praxis einzusetzen.</li><li><b>In der Prüfungsphase</b> sind Karteikarten, Marker und Kaffee meine ständigen Begleiter.</li></ol>
+
+cv: <b>Ausbildung:</b><br>09/2009 – 08/2012<br>Staatlich geprüfte Grafik-Designerin, Fachhochschulreife<br>Akademie für Kommunikation, Stuttgart<br><br><b>Praktische Erfahrung:</b><br>04/2013 – 08/2013<br>Praktikum im Bereich Grafik-Design Nitribitt, Werbeagentur, Stuttgart<br><br>09/2013 – 02/2014<br>Praktikum im Bereich Kommunikationsdesign<br>LässingMüller, Werbeagentur, Stuttgart<br><br>03/2014 – 08/2014<br>Praktikum im Bereich Kommunikationsdesign<br>Monopage, Werbeagentur, Stuttgart
+
+skills: <ul><li><b>Designbegeistert</b> – Während meiner Ausbildung und meinen Praktika in verschiedenen Werbeagenturen konnte ich meine Fähigkeiten in den Adobe Programme Photoshop, InDesign und Illustrator ausbauen und festigen.<li><b>Teamfähig</b> – Durch die Mitarbeit im elterlichen Betrieb und meiner Nebentätigkeit bei Müller Ltd & Co. KG konnte ich viele Erfahrungen im Umgang mit meinen Mitmenschen sammeln.</li><li><b>Kommunikativ und wortgewandt</b> – Meine Offenheit und Kontaktfreudigkeit helfen mir im Umgang mit Kunden und meinem Umfeld – ob auf Deutsch, Englisch oder Griechisch.</li></ul>
