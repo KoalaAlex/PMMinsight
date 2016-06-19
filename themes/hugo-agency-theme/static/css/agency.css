@@ -374,11 +374,15 @@ section h3.section-subheading {
     background-color: rgba(255,255,255,0.8);
     position: relative;
     margin-top: -97px;
+    max-height: 97px;
+    pointer-events: none;
+    text-decoration: none;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
+    color: black;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
