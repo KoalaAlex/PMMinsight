@@ -44,14 +44,48 @@
 }
 
 .navbar-default .navbar-header {
-    background-color: #222;
+    background-color: #888;
 }
 
 .navbar-default .navbar-collapse {
   width: 500px;
   float: right;
-  background-color: #222;
+  background-color: #888;
+  padding-bottom: 100vh;
 }
+
+.navbar-collapse.in{
+  padding-bottom: 100vh;
+}
+
+.navbar-header .navbar-toggle .open, .navbar-header .navbar-toggle.collapsed .closing{
+  height: 16px;
+  width: 22px;
+  display: none;
+}
+
+.navbar-header .navbar-toggle.collapsed .open, .navbar-header .navbar-toggle .closing{
+  height: 16px;
+  width: 22px;
+  display: block;
+}
+
+.navbar-header .navbar-toggle .closing span:nth-child(2){
+  position: absolute;
+  width: 32px;
+  top: 18px;
+  left: 5px;
+  transform: rotate3d(0,0,1,45deg);
+}
+
+.navbar-header .navbar-toggle .closing span:nth-child(3){
+  position: absolute;
+  width: 32px;
+  top: 13px;
+  left: 5px;
+  transform: rotate3d(0,0,1,-45deg);
+}
+
 
 @media (min-width: 768px){
   .navbar-toggle {
@@ -99,6 +133,25 @@
   }
 }
 
+.navbar-default .navbar-collapse .languages {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+#language-de,#language-en {
+  display: inline;
+  background: none;
+  border: none;
+}
+#language-de:hover, #language-en:hover {
+  color: #000;
+}
+
 #themes ul {
   list-style: none;
   padding-left: 0px;
@@ -111,7 +164,7 @@
   width: 100%;
   height: 150px;
   bottom: -150px;
-  background-color: #222;
+  background-color: #888;
   -webkit-transition: bottom .5s;
   -moz-transition: bottom .5s;
   transition: bottom .5s;
