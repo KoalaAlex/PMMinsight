@@ -2,12 +2,32 @@
 var $preword = $('#preword');
 var $footerNav = $('#footer-bar');
 var footerBarMinBottom = -100;
+var currentLanguage = "de";
 
 function scrollToPreword(){
   $('html, body').stop().animate({
       scrollTop: $preword.offset().top
   }, 1500, 'easeInOutExpo');
   event.preventDefault();
+  return false;
+}
+
+function ChangeLanguage(languageName){
+  if(languageName === "de"){
+    if(languageName !== currentLanguage){
+      console.log("switch ln to de");
+      currentLanguage = languageName;
+    }
+  }
+  else if(languageName === "en"){
+    if(languageName !== currentLanguage){
+      console.log("switch ln to en");
+      currentLanguage = languageName;
+    }
+  }
+  else{
+    console.log("no languge with name " + languageType + " found");
+  }
   return false;
 }
 
@@ -26,5 +46,6 @@ $(document).ready(function() {
   if(url.indexOf('#load:') != -1) {
     $('#portfolioModal' + url.substr(url.lastIndexOf(':') + 1, url.length)).modal('show');
   }
-
+  // Beacuse the events is not fired at the start
+  $(".navbar .navbar-header .navbar-toggle").addClass("collapsed");
 });
