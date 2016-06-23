@@ -13,6 +13,7 @@
     width: 100%;
     margin: auto;
     bottom: 0px;
+    pointer-events: none;
   }
 
   #logo-start .center button#logo-scroll {
@@ -211,3 +212,8 @@
         #footer-bar .brands ul li .imgx3 img{
           display: block;
           margin: auto;}
+
+#covervideo {
+  width: 100%;
+  height: 100%;
+}

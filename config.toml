@@ -299,3 +299,32 @@ googleAnalytics = ""
 		[[params.footer.quicklinks]]
 			text = "Terms of Use"
 			link = "#"
+
+		# Interview_2 section
+		[params.interview_2]
+			enable = true
+			title = "interview_2"
+			subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+					[[params.interview_2.row]]
+
+							[[params.interview_2.row.list]]
+									title = "Zuerst einmal: können Sie uns ein kurzes Statement zur neuen PMMinsight geben?"
+									id = "interview_2_p1"
+									description = "Die neue PMMinsight ist erstmalig nicht auf ein Buch fokussiert, sondern verbindet gleichermaßen die Themen Internet, 3D-Druck, Verpackung sowie Print. Das kann als Meilenstein angesehen werden! Dies ist insbesondere auch in Hinblick auf unsere neue Studiengangsausrichtung bedeutsam, da wir mittlerweile ein crossmedialer und design-orientierter Studiengang sind, der u.a. auch das Thema 3D-Druck aufgreift. Die PMMinsight fordert weiterhin wie jedes Semester die gesamte Bandbreite des Wirtschaftsingenieurwesens: von der Planung, Finanzierung, Entwicklung, Produktion bis hin zur Vermarktung – alles in der Hand der Studentinnen und Studenten."
+
+							[[params.interview_2.row.list]]
+									title ="Als Crossmedia versteht man eine Kommunikationskampagne, die über unterschiedliche Medienkanäle vernetzt ist. Was denken Sie:"
+									subtitle = "Welche Zusammensetzung/Vernetzung von Medienkanälen finden Sie am erfolgversprechendsten?"
+									id = "interview_2_p2"
+									description = "Wurden gängige Medienkanäle wie TV, Internet oder etwa auch Print bisher maßgeblich visuell erfolgreich eingesetzt, so erscheint es meines Erachtens aufgrund des steigenden Wettbewerbsdrucks sowie der wachsenden Anwendung crossmedialer Kampagnen sinnvoll, weitere crossmediale Elemente mit einzubeziehen: so hat etwa der Hersteller von Berufskleidung Engelbert Strauss neben der klassischen Medienverzahnung auch einen eigenen Song für Marketing- Kampagnen kreiert und so mittels des aufgrund visueller Überreizung wichtigen Audio-Kanals eine weitere Differenzierung zum Wettbewerb geschaffen."
+
+							[[params.interview_2.row.list]]
+									subtitle = "Wie sehr wird sich Ihrer Meinung nach Crossmedia in Zukunft noch weiter etablieren? Die Definition besagt, dass mindestens 3 Kanäle genutzt werden müssen – glauben Sie, dass die Kampagnen bald jeweils alle Kanäle nutzen oder ist das schon der Fall?"
+									id = "interview_2_p3"
+									description = "Wie schon zuvor erwähnt halte ich den auditiven Kanal - egal ob über Radio, Fernsehen oder Internet - als wichtige Zusatzkomponente. In Zukunft stellt sich vermutlich weniger die Frage, wie viele Kanäle genutzt werden, sondern vielmehr wie Kanäle sinnvoll kombiniert werden: Aufgrund des Zusammenführens von Kommunikationskanälen in multifunktionalen Geräten, hier ist federführend das Smartphone zu nennen, spielt meines Erachtens in Zukunft insbesondere die Verzahnung von verschiedenen Werbeformen eine Rolle, da evtl. alle Kanäle über ein bzw. maximal zwei Endgeräte empfangen werden. Das eröffnet ganz neue crossmediale Ansätze."
+
+							[[params.interview_2.row.list]]
+									subtitle = "In ihren Vorlesungen behandeln Sie auch das Thema Crossmedia, wie kommt es zu ihrem Interesse daran? Wie hatten Sie in Ihrer beruflichen Laufbahn schon Kontakt damit?"
+									id = "interview_2_p3"
+									description = "Ich habe bereits Anfang 2000 KMU-Unternehmen hinsichtlich des Einsatzes verschiedener Werbekanäle sowie deren Verzahnung beraten und darauf geachtet, einheitliches Design oder etwa auch einen durchgängigen Leitspruch einzusetzen. Schon Jahrzehnte früher gab es Marketing- Kampagnen, die aus heutiger Perspektive als crossmediale Kampagnen bezeichnet werden können. Damals wurde allerdings noch nicht oder nur selten von Crossmedia gesprochen und auch wissenschaftlich war die crossmediale Vermarktung kaum untersucht. Folglich wurden die Kanäle in der Vergangenheit oft nur auf 'gut Glück' eingesetzt und miteinander vernetzt. Umso wichtiger erscheint es mir, Crossmedia wissenschaftlich weiter aufzugreifen und Strategien und Methoden zur Erhöhung der Erfolgswahrscheinlichkeit von Werbekampagnen zu entwickeln. Entsprechend stattenwir unsere Studentinnen und Studenten mit diesem Wissen aus und motivieren sie, in Zukunft selbst an diesem Thema weiter zu forschen. Ich habe letztes Semester Bachelorarbeiten zu den Themen Crossmedia in der Musikindustrie oder auch im Personalmarketing betreut, weitere crossmedial- bezogene Arbeiten laufen derzeit noch. Das zeigt das Interesse der Studentinnen und Studenten an Crossmedia."
