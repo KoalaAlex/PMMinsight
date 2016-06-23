@@ -34,7 +34,6 @@ var cbpAnimatedHeader = (function() {
 
 	function scrollPage() {
 		var sy = scrollY();
-    console.log(scrollY());
     // shows the navbar only when it is scrolled more than the value in 'changeHeaderOn'
 		if ( sy >= changeHeaderOn ) {
 			classie.add( header, 'navbar-shrink' );

@@ -13,7 +13,11 @@
             {{ partial "portfolio.html" . }}
         {{ end }}
 
-        {{ partial "theme.html" . }}
+        {{ partial "printmedia.html" . }}
+
+        {{ partial "interview.html" . }}
+
+        {{ partial "crossmedia.html" . }}
 
         {{ if .Site.Params.clients_list.enable }}
             {{ partial "clients.html" . }}

@@ -145,31 +145,46 @@ googleAnalytics = ""
 
 	# Services section
 	[params.theme]
-				enable = true
+		enable = true
 		title = "Theme"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 
 				[[params.theme.row]]
 
 						[[params.theme.row.list]]
-								title = "Theme 1"
+								title = "Statement zur aktuellen PMMinsight"
 								id = "theme1"
-								description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+								description = "Die PMMinsight ist seit ihrem ersten Erscheinen mittlerweile zum Markenzeichen für die Kreativität und Leistungsfähigkeit unserer Studierenden im Studiengang Print-Media-Management geworden.Auch diese Ausgabe im Sommersemester 2016 wird wieder Maßstäbe setzen und zeigen, welche Antworten Sie, unsere Studierenden im 4. Fachsemester, auf Herausforderungen und Veränderungen in der Print- und Medienwelt als zukunftsweisend ansehen."
 
 						[[params.theme.row.list]]
-								title = "Theme 2"
+								title = "Wie kamen Sie zur HdM und speziell zum Studiengang Print-Media-Manageme"
 								id = "theme2"
-								description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+								description = "<br>Mein beruflicher Werdegang ist durch Aufgaben in der Leitung von Druckereibetrieben großer deutscher Verlage geprägt worden. Daher war es für mich folgerichtig bei dem von mir angestrebten Wechsel an eine Hochschule Ausschau nach einer Stelle zu halten, die es mir erlaubt, mein in der Praxis erworbenes Wissen gepaart mit theoretischen Grundlagen an junge Menschen weiterzugeben.<br>Da ich selbst ein Diplom als Wirtschaftsingenieur habe und meine Dissertation ebenfalls an der Nahtstelle von Technik und Betriebswirtschaft inhaltlich anzusiedeln ist, stellte die Ausschreibung der Professur für Unternehmensführung in der Druck- und Verlagsindustrie in unserem Studiengang sozusagen die Steilvorlage für meine Bewerbung.<br>Es bereitet mir nach wie vor viel Freude, mich mit der Weitergabe von Wissen und Erfahrungen an unsere Studierenden zu beschäftigen und durch die Arbeit mit jungen Menschen selbst geistig beweglich zu bleiben."
 
 						[[params.theme.row.list]]
-								title = "Theme 3"
+								title = "Sie waren vier Jahre der Studiendekan des Studiengangs Print-Media-Management. Der Studiengang hat sich in den letzten Jahren gewandelt. Wie sehen Sie die Veränderung? Und wie kam das bei den Studierenden an?"
 								id = "theme3"
-								description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+								description = "In meiner Amtszeit als Studiendekan haben wir die ersten Auswirkungen des veränderten Bewerberverhaltens erfahren: der Wandel in der Druck- und Medienindustrie hat sicher junge Leute bewogen, ein Studium in diesem Umfeld eher kritisch zu hinterfragen und sich nach Alternativen umzuschauen.<br>Sinkende Bewerberzahlen haben wir einerseits versucht, durch intensivere Bewerbung über die verschiedenen medialen Kanäle entgegenzuwirken. Andererseits sind aber auch Überlegungen angestellt worden, das Angebot unseres Studiengangs stärker auf die veränderten Rahmenbedingungen in der Druck- und Medienwelt anzupassen. So kam es zu der Einführung der drei Schwerpunkte<br><br>- Wirtschaftsingenieur Crossmedia and Print<br>- Wirtschaftsingenieur Packaging und<br>- Wirtschaftsingenieur Media Design<br>Mit diesem Angebot scheinen wir nach den ersten Bewerbungsphasen zum Wintersemester 2015/2016 und zum Sommersemester 2016 richtig zu liegen, denn unsere Bewerberzahlen haben sich entgegen dem allgemeinen Trend leicht nach oben bewegt. Wir sind nun wieder gespannt, wie dieses Angebot in der gerade laufenden Bewerbung für das Wintersemester 2016/2017 nicht zuletzt durch weitere aktuelle Werbemaßnahmen angenommen wird."
 
 						[[params.theme.row.list]]
-								title = "Theme 4"
+								title = "Was macht den neuen Schwerpunkt Media Design aus? Auf was wird der Fokus gelegt?"
 								id = "theme4"
-								description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+								description = "Im Schwerpunkt Wirtschaftsingenieur Media Design haben die Studierenden speziell ab dem 4. Fachsemester die Möglichkeit in umfassenden Modulen sich einerseits Grundlagen des Designs anzueignen, aber auch in Projekten dieses Wissen praktisch umzusetzen. Der Studiengang hat dazu eine Professur Media Design geschaffen, die gerade in der Berufungsphase ist und zum Sommer- semester 2017 mit einer aus dem Designumfeld stammenden Person besetzt werden soll."
+
+						[[params.theme.row.list]]
+								title = "Was war das primäre Ziel dieser Veränderung?"
+								id = "theme5"
+								description = "Mit der Ausrichtung des Studiengangs auf die nun angebotenen drei Schwerpunkte werden die Profile des Wirtschaftsingenieurs insgesamt für die unterschiedlichen Einsatzfelder in der veränderten Druck- und Medienwelt geschärft.<br>Speziell im Schwerpunkt Wirtschaftsingenieur Media Design werden junge Menschen angesprochen, die neben einem technisch und wirtschaftlich geprägten Verständnis eine hohe Affinität zu Kreativität und Design im Medienbereich haben."
+
+						[[params.theme.row.list]]
+								title = "Welche beruflichen Möglichkeiten hat man mit diesem Abschluss?"
+								id = "theme6"
+								description = "Der berufliche Einsatz eines Wirtschaftsingenieurs Media Design liegt an der Nahtstelle zwischen Technik und kreativer Arbeit in Druck- und Medienhäusern, in Anzeigen- oder Werbeagenturen oder auch Herstellungsabteilungen von Verlagen. Hier sind unsere Absolventen und Absolventinnen die Fachleute, die kreative Arbeiten hinsichtlich technischer Umsetzbarkeit und wirtschaftlicher Machbarkeit beurteilen können und ggf. eigene Ideen mit einbringen und umsetzen können."
+
+						[[params.theme.row.list]]
+								title = "Was war das primäre Ziel dieser Veränderung?"
+								id = "theme7"
+								description = "Mit der Neuausrichtung hat Print-Media-Management einen aus unserer Sicht wichtigen und richtungsweisenden Schritt in die Zukunft getan. Wir werden die Entwicklung wie bisher sorgfältig beobachten und analysieren, um dann ggf. weitere Justierungen vornehmen zu können. Ein wichtiges Element dabei ist der Austausch mit der Praxis. Dazu sind wir am 28. Juni 2016 wieder mit den Damen und Herren unseres Industriebeirates zusammen, um deren Einschätzungen und Erfahrungen in unsere Überlegungen mit einfließen zu lassen."
 
 
 
