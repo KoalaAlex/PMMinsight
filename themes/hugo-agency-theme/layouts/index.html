@@ -7,7 +7,8 @@
         {{ partial "nav.html" . }}
         {{ partial "logo.html" . }}
 
-        {{ partial "preword.html" . }}
+        {{ partial "preword-de.html" . }}
+        {{ partial "preword-en.html" . }}
 
         {{ if .Site.Params.portfolio.enable }}
             {{ partial "portfolio.html" . }}
@@ -20,6 +21,13 @@
         {{ partial "crossmedia.html" . }}
 
         {{ partial "interview_2.html" . }}
+
+        {{ partial "3ddruck.html" . }}
+
+        {{ partial "interview_3-de.html" . }}
+        {{ partial "interview_3-en.html" . }}
+
+        {{ partial "fieldreport.html" . }}
 
         {{ if .Site.Params.clients_list.enable }}
             {{ partial "clients.html" . }}

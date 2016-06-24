@@ -1,0 +1,30 @@
+{{ "<!-- Theme -->" | safeHTML }}
+<section id="interview_3" class="bg-light-gray lg-de">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Interview</h2>
+        <h3 class="section-heading">über 3D-Druck</h2>
+        <h3 class="section-subheading text-muted">mit Prof. Dr.-Ing. Hartmann</h3>
+      </div>
+    </div>
+  </div>
+  <ul>
+  {{ range .Site.Params.interview_3.row }}
+  {{ range .list }}
+  <li id="{{ .id }}">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  {{ if .title }}
+                  <h4 class="section-heading">{{ .title | markdownify }}</h4>
+                  {{ end }}
+                  <h3 class="section-subheading text-muted">{{ .description | markdownify }}</h3>
+              </div>
+          </div>
+      </div>
+  </li>
+  {{ end }}
+  {{ end }}
+  </ul>
+</section>

@@ -328,3 +328,41 @@ googleAnalytics = ""
 									subtitle = "In ihren Vorlesungen behandeln Sie auch das Thema Crossmedia, wie kommt es zu ihrem Interesse daran? Wie hatten Sie in Ihrer beruflichen Laufbahn schon Kontakt damit?"
 									id = "interview_2_p3"
 									description = "Ich habe bereits Anfang 2000 KMU-Unternehmen hinsichtlich des Einsatzes verschiedener Werbekanäle sowie deren Verzahnung beraten und darauf geachtet, einheitliches Design oder etwa auch einen durchgängigen Leitspruch einzusetzen. Schon Jahrzehnte früher gab es Marketing- Kampagnen, die aus heutiger Perspektive als crossmediale Kampagnen bezeichnet werden können. Damals wurde allerdings noch nicht oder nur selten von Crossmedia gesprochen und auch wissenschaftlich war die crossmediale Vermarktung kaum untersucht. Folglich wurden die Kanäle in der Vergangenheit oft nur auf 'gut Glück' eingesetzt und miteinander vernetzt. Umso wichtiger erscheint es mir, Crossmedia wissenschaftlich weiter aufzugreifen und Strategien und Methoden zur Erhöhung der Erfolgswahrscheinlichkeit von Werbekampagnen zu entwickeln. Entsprechend stattenwir unsere Studentinnen und Studenten mit diesem Wissen aus und motivieren sie, in Zukunft selbst an diesem Thema weiter zu forschen. Ich habe letztes Semester Bachelorarbeiten zu den Themen Crossmedia in der Musikindustrie oder auch im Personalmarketing betreut, weitere crossmedial- bezogene Arbeiten laufen derzeit noch. Das zeigt das Interesse der Studentinnen und Studenten an Crossmedia."
+
+		# Interview_3 section
+		[params.interview_3]
+			enable = true
+			title = "interview_3"
+			subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+					[[params.interview_3.row]]
+
+							[[params.interview_3.row.list]]
+									title = "Bevor wir zum 3D Druck kommen, können Sie noch ein kurzes Statement zu unserer PMMinsight – the crossbox. abgeben?"
+									id = "interview_3_p1"
+									description = "„PMMinsight – the crossbox.“ ist ein gelungenes Beispiel für die Weiterentwicklung unseres Studienganges und der PMMinsight in das crossmediale Medienzeitalter. Besonders eindrucksvoll finde ich den Spannungsbogen von der Verpackungsentwicklung über den online-Auftritt hin zum angewandten 3D-Druck."
+
+							[[params.interview_3.row.list]]
+									title = "Wie schätzen Sie die Potenziale des 3D Drucks in Bezug auf die Druckbranche ein?"
+									id = "interview_3_p2"
+									description = "Die Faszination des 3D-Druckes ist natürlich branchenbezogen zu betrachten und aufzulösen. Grundsätzlich handelt es sich beim 3D-Druck um ein additives Fertigungsverfahren. Es eröffnet hinsichtlich der Gestaltung von Bauteilen völlig neue Möglichkeiten. Diese müssen bereits in der Konstruktion ber cksichtigt werden, es muss sozusagen „3D-druckgerecht“ konstruiert werden.<br>Im Mittelpunkt steht dabei die Losgröße 1, die die Basis des 3D-Druckes ist, und damit für den Prototypenbau, Kleinstserien oder Individualisierung prädestiniert ist. Weitere wesentliche Punkte sind natürlich die Eigenschaften des fertigen Bauteils hinsichtlich der Werkstoffkennwerte, Festigkeiten und Toleranzen.<br>Zusammenfassend muss festgestellt werden, dass es hier eine Vielzahl von Themen gibt, die in der Druckindustrie kaum Bedeutung haben. Damit fehlt üblicherweise auch das notwendige Know-how zu diesen speziellen Themen. Daher lautet meine Empfehlung an die Unternehmer der Druckindustrie, sehr genau die Marktanforderungen und die eigenen Stärken zu analysieren."
+
+							[[params.interview_3.row.list]]
+									title = "Es gibt Skeptiker, die sagen, 3D Druck hätte technisch nichts mit Drucken zu tun, wie sehen Sie das?"
+									id = "interview_3_p3"
+									description = "Dreidimensionalität und Druck haben auf den ersten Blick wenig gemein. Allerdings ist der Bereich der Farbe und der Farbverbindlichkeit der Objekte eine Domäne des Drucks mit den Themen Farbräume, Farbprofilierung und verbindlicher Farbproofs. Diese Themen sind natürlich auch für 3D- Objekte von Bedeutung. Hier sind die Spezialisten der Druckbranche gefordert und haben bei diesen Themen auch ein Alleinstellungsmerkmal. Also auch ein Grund das Thema 3D-Druck in die Studieninhalte an der HdM zu integrieren, was wir ja mit dem kürzlich installierten 3D-Drucker getan haben."
+
+							[[params.interview_3.row.list]]
+									title = "Gibt es spezielle Produkte/Bereiche, die Sie sich für die Druckbranche im 3D-Druck vorstellen können?"
+									id = "interview_3_p4"
+									description = "Einsatzmöglichkeiten in der Druckindustrie sehe ich in der Individualisierung von 3D-Objekten mit Medienbezug wie z.B. Werbemittel oder im künstlerischen, gestalterischen Bereich wie Architektur,Bühnenbilder etc. Ein weiteres großes Feld ist der Bereich der Veredelung von Druckprodukten durch 3D-Applikationen, also die Kombination von klassischem Druck und 3D-Druck."
+
+							[[params.interview_3.row.list]]
+									title = "Haben Sie schon eine Vorstellung, wie der 3D-Druck die Industrie verändern kann?"
+									id = "interview_3_p5"
+									description = "Die Anwendungsmöglichkeiten sind sehr vielfältig, von Luft- und Raumfahrt, Fahrzeugtechnik bis zur Medizin. Dabei bedarf es oftmals eines interdisziplinären Ansatzes, um die Möglichkeiten des 3D- Druckes ausschöpfen zu können und stellt besondere Ansprüche an die Qualifikation und Qualität der Zusammenarbeit der Beteiligten. Insgesamt ergeben sich dann auch völlig neue, veränderte Wertschöpfungsketten.<br>Weiterhin wird der 3D-Druck bei der Individualisierung von Produkten und Zunahme der Variantenvielfalt sein Potential ausspielen."
+
+							[[params.interview_3.row.list]]
+									title = "3D-Druck ist gerade in aller Munde – denken Sie dieser Hype wird anhalten, so dass er in naher Zukunft in jedem Haushalt zu finden ist?"
+									id = "interview_3_p6"
+									description = "Der Hype wird in Zukunft etwas beruhigen, um einer realistischen Einschätzung Platz zu machen, die allerdings von einer wachsenden Verbreitung und Anwendung gekennzeichnet sein wird.<br>Den 3D-Druck in jedem Haushalt erwarte ich nicht. Vielmehr wird es 3D-Druck als Dienstleistung im Copy-Shop um die Ecke oder im Baumarkt geben, wo der Endkunde seine selbst gestalteten Teile oder Ersatzteile ausdrucken kann. Flankiert wir diese durch Dienstleistungen rund um die Gestaltung bzw. das Angebot von Dateien für den 3D-Druck."
