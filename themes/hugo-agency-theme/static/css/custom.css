@@ -244,3 +244,20 @@
   overflow: hidden;
   height: 750px;
 }
+
+#portfolio a.portfolio-link img.img-responsive {
+  position: absolute;
+  top: 0px;
+  visibility: hidden;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+#portfolio a.portfolio-link img.img-responsive:nth-child(2) {
+  position: relative;
+  visibility: visible;
+  opacity: 1;
+}

@@ -5,6 +5,9 @@ var footerBarMinBottom = -100;
 var currentLanguage = "de";
 var $allDEBlocks = $('.lg-de');
 var $allENBlocks = $('.lg-en');
+var currentImgIndex = 1;
+var timeSinceStarted = 0;
+var curretInterval = null;
 
 function scrollToPreword(){
   $('html, body').stop().animate({
@@ -37,6 +40,40 @@ function ChangeLanguage(languageName){
   return false;
 }
 
+function FadeImageOverTime(imageParent){
+  timeSinceStarted = Date.now();
+  currentImgIndex--;
+  if((currentImgIndex) < 2){
+    currentImgIndex = 5;
+  }
+  console.log(currentImgIndex);
+  imageParent.find('img:nth-child(' + (currentImgIndex) + ')').css({"visibility": "hidden", "opacity": "0"});
+  currentImgIndex++;
+  if(currentImgIndex > 5){
+    currentImgIndex = 2;
+  }
+  console.log(currentImgIndex);
+  if(currentImgIndex === 5){
+    imageParent.find('img:nth-child(' + (currentImgIndex) + ')').css({"visibility": "visible", "opacity": "0", "z-index": "-1"});
+  }
+  else{
+    imageParent.find('img:nth-child(' + (currentImgIndex) + ')').css({"visibility": "visible", "opacity": "0"});
+  }
+  currentImgIndex++;
+  if(currentImgIndex > 5){
+    currentImgIndex = 2;
+  }
+  console.log(currentImgIndex);
+  imageParent.find('img:nth-child(' + (currentImgIndex) + ')').css({"visibility": "visible", "opacity": "1"});
+  console.log("working");
+}
+
+function ResetImage(imageParent){
+  imageParent.find("img").css({"visibility": "visible", "opacity": "1"});
+  currentImgIndex = 1;
+  imageParent.find("img:nth-child(2)").css({"visibility": "visible", "opacity": "1"});
+}
+
 function ToggleFooterNav(){
   if($footerNav.hasClass('small')){
     $footerNav.removeClass('small');
@@ -57,8 +94,14 @@ $(document).ready(function() {
 
   $(".portfolio-hover").hover(
   function() {
-      $( this ).parent().addClass("showInfo");
+      var parentEl = $( this ).parent();
+      parentEl.addClass("showInfo");
+      currentImgIndex = 1;
+      curretInterval = setInterval(function(){FadeImageOverTime(parentEl)}, 3000);
     }, function() {
-      $( this ).parent().removeClass("showInfo");
+      clearInterval(curretInterval);
+      var parentEl = $( this ).parent();
+      ResetImage(parentEl);
+      parentEl.removeClass("showInfo");
     });
 });

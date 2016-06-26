@@ -93,3 +93,7 @@
   list-style: none;
   padding-left: 0px;
 }
+
+#portfolio a.portfolio-link img:last-child {
+  display: none !important;
+}

@@ -23,7 +23,6 @@
     // We don't want parallax to happen if scrollpos is below 0
     if(translateValue > printmediaTopPos){
       ticking = false;
-      console.log("return");
       return;
     }
     if (translateValue < (paralaxTopPos + offsetImg)){
