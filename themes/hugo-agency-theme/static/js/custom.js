@@ -58,7 +58,6 @@ $(document).ready(function() {
   $(".portfolio-hover").hover(
   function() {
       $( this ).parent().addClass("showInfo");
-      console.log("DO");
     }, function() {
       $( this ).parent().removeClass("showInfo");
     });

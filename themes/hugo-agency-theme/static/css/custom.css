@@ -229,3 +229,18 @@
 #portfolio a.showInfo .portfolio-caption {
   margin-top: -97px;
 }
+
+#parallax-test {
+  width: 100%;
+  height: 750px;
+
+  background-image: url('../img/Parallax-Haende_test.png');
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax{
+  overflow: hidden;
+  height: 750px;
+}
