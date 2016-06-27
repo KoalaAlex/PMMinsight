@@ -8,6 +8,7 @@ var $allENBlocks = $('.lg-en');
 var currentImgIndex = 1;
 var timeSinceStarted = 0;
 var curretInterval = null;
+var addThisToIndex = 0;
 
 function scrollToPreword(){
   $('html, body').stop().animate({
@@ -20,7 +21,7 @@ function scrollToPreword(){
 function ChangeLanguage(languageName){
   if(languageName === "de"){
     if(languageName !== currentLanguage){
-      console.log("switch ln to de");
+      //console.log("switch ln to de");
       $allDEBlocks.css("display", "block");
       $allENBlocks.css("display", "none");
       currentLanguage = languageName;
@@ -28,7 +29,7 @@ function ChangeLanguage(languageName){
   }
   else if(languageName === "en"){
     if(languageName !== currentLanguage){
-      console.log("switch ln to en");
+      //console.log("switch ln to en");
       $allDEBlocks.css("display", "none");
       $allENBlocks.css("display", "block");
       currentLanguage = languageName;
@@ -46,13 +47,11 @@ function FadeImageOverTime(imageParent){
   if((currentImgIndex) < 2){
     currentImgIndex = 5;
   }
-  console.log(currentImgIndex);
   imageParent.find('img:nth-child(' + (currentImgIndex) + ')').css({"visibility": "hidden", "opacity": "0"});
   currentImgIndex++;
   if(currentImgIndex > 5){
     currentImgIndex = 2;
   }
-  console.log(currentImgIndex);
   if(currentImgIndex === 5){
     imageParent.find('img:nth-child(' + (currentImgIndex) + ')').css({"visibility": "visible", "opacity": "0", "z-index": "-1"});
   }
@@ -63,9 +62,7 @@ function FadeImageOverTime(imageParent){
   if(currentImgIndex > 5){
     currentImgIndex = 2;
   }
-  console.log(currentImgIndex);
   imageParent.find('img:nth-child(' + (currentImgIndex) + ')').css({"visibility": "visible", "opacity": "1"});
-  console.log("working");
 }
 
 function ResetImage(imageParent){
@@ -84,6 +81,14 @@ function ToggleFooterNav(){
   return false;
 }
 
+function UpdateAllImages(addThisToIndex){
+  $('.portfolio-hover').each(function (index){
+    if(((index + addThisToIndex) % 3) === 0){
+      FadeImageOverTime($( this ).parent());
+    }
+  });
+}
+
 $(document).ready(function() {
   var url = window.location.href;
   if(url.indexOf('#load:') != -1) {
@@ -92,16 +97,26 @@ $(document).ready(function() {
   // Beacuse the events is not fired at the start
   $(".navbar .navbar-header .navbar-toggle").addClass("collapsed");
 
+
   $(".portfolio-hover").hover(
   function() {
       var parentEl = $( this ).parent();
       parentEl.addClass("showInfo");
-      currentImgIndex = 1;
-      curretInterval = setInterval(function(){FadeImageOverTime(parentEl)}, 3000);
+      //currentImgIndex = 1;
+      //curretInterval = setInterval(function(){FadeImageOverTime(parentEl)}, 3000);
     }, function() {
-      clearInterval(curretInterval);
       var parentEl = $( this ).parent();
-      ResetImage(parentEl);
+      //clearInterval(curretInterval);
+      //ResetImage(parentEl);
       parentEl.removeClass("showInfo");
     });
+
+    currentImgIndex = 1;
+    curretInterval = setInterval(function(){
+      addThisToIndex++;
+      if(addThisToIndex >= 3){
+        addThisToIndex = 0;
+      }
+      UpdateAllImages(addThisToIndex)
+    }, 3000);
 });
