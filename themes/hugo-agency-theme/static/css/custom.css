@@ -37,6 +37,16 @@
 }
 .navbar-default .navbar-nav>.active>a {
     border-radius: 3px;
+    color: #861E1A;
+}
+.navbar-default .nav li a {
+    padding-left: 30px;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #861E1A;
+}
+.navbar-default .nav li a:hover {
+    color: #861E1A;
 }
 .navbar-default .navbar-brand {
     font-family: 'Roboto', sans-serif;
@@ -51,7 +61,7 @@
     top: 0px;
 }
 .navbar-right {
-   padding-top: 70px;
+    padding-top: 100px;
 }
 .navbar-default .navbar-header {
     background-color: #888;
@@ -59,7 +69,7 @@
 .navbar-default .navbar-collapse {
     width: 500px;
     float: right;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.95);
     padding-bottom: 100vh;
     margin-top: -52px;
 }
@@ -92,6 +102,24 @@
     left: 5px;
     transform: rotate3d(0, 0, 1, -45deg);
 }
+.navbar-default .navbar-toggle {
+    background: none;
+    border: none;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background: none;
+}
+.micon {
+    background-image: url(../img/menu.svg);
+    width: 25px;
+    height: 20px;
+}
+.cicon {
+    background-image: url(../img/close.svg);
+    width: 25px;
+    height: 25px;
+}
 @media (min-width: 768px) {
     .navbar-toggle {
         display: block;
@@ -114,7 +142,7 @@
     .navbar-nav>li>a {
         padding-top: 10px;
         padding-bottom: 10px;
-        line-height: normal;
+        line-height: 70px;
     }
     .container-fluid>.navbar-collapse,
     .container-fluid>.navbar-header,
@@ -143,6 +171,9 @@
     color: white;
     font-size: 14px;
     text-transform: uppercase;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
 }
 #language-de,
 #language-en {
@@ -152,7 +183,7 @@
 }
 #language-de:hover,
 #language-en:hover {
-    color: #000;
+    color: #861E1A;
 }
 #themes ul {
     list-style: none;
@@ -269,18 +300,29 @@
     visibility: visible;
     opacity: 1;
 }
-
 section {
-  padding-top: 100px;
+    padding-top: 100px;
 }
-
-#printmedia{
-  padding-top: 0px;
+#printmedia {
+    padding-top: 0px;
 }
-
-@media (max-width: 767px){
-  #portfolio .col-md-3 {
-    width: 50%;
-    float: left;
-  }
+@media (max-width: 767px) {
+    #portfolio .col-md-3 {
+        width: 50%;
+        float: left;
+    }
+    .navbar-default .navbar-collapse {
+        width: 100vw;
+    }
+    .container {
+        width: 100vw;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .navbar-default .nav li a {
+        font-size: 18pt !important;
+    }
+    .navbar-nav>li>a {
+        line-height: 25px;
+    }
 }

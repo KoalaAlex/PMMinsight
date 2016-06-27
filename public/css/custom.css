@@ -97,3 +97,7 @@
 #portfolio a.portfolio-link img:last-child {
   display: none !important;
 }
+
+.micon {
+    background-image: url(../img/menu.svg);
+}
