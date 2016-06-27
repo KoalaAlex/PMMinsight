@@ -23,7 +23,7 @@
     border: 0px;
     color: white;
     font-size: 30px;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     transform: scale3d(0.3,0.3,0.3);
 }
 
@@ -40,6 +40,14 @@
     border-radius: 3px;
 }
 
+.navbar-default .navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28pt;
+    font-weight: 300;
+}
+.navbar-default .navbar-brand:hover {
+    color: #861E1A;
+}
 .navbar-default.navbar-shrink {
   top: 0px;
 }
@@ -51,7 +59,7 @@
 .navbar-default .navbar-collapse {
   width: 500px;
   float: right;
-  background-color: #888;
+  background-color: rgba(0,0,0,0.9);
   padding-bottom: 100vh;
 }
 
@@ -88,6 +96,7 @@
 }
 
 
+
 @media (min-width: 768px){
   .navbar-toggle {
       display: block;
@@ -114,6 +123,7 @@
   .navbar-nav>li>a {
     padding-top: 10px;
     padding-bottom: 10px;
+    line-height: normal;
   }
   .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
     margin-right: -15px;
@@ -135,7 +145,7 @@
 }
 
 .navbar-default .navbar-collapse .languages {
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   letter-spacing: 1px;
   font-weight: 400;
@@ -183,7 +193,7 @@
     margin: auto;
     text-align: center;
     font-size: 26px;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: white;
   }
   #footer-bar.small #up-down-btn{

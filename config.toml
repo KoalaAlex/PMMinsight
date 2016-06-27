@@ -36,7 +36,7 @@ googleAnalytics = ""
 
 	# Navigation
 	[params.navigation]
-		brand = "The Crossbox"
+		brand = "the crossbox."
 		preword = "Vorwort"
 		portfolio = "Portfolio"
 		about = "About"
