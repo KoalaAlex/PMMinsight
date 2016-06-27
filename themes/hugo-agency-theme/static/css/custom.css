@@ -264,15 +264,9 @@
     transition: opacity 1s;
 }
 #portfolio a.portfolio-link img.img-responsive:nth-child(2) {
-<<<<<<< HEAD
     position: relative;
     visibility: visible;
     opacity: 1;
-}
-=======
-  position: relative;
-  visibility: visible;
-  opacity: 1;
 }
 
 @media (max-width: 767px){
@@ -281,4 +275,3 @@
     float: left;
   }
 }
->>>>>>> origin/develop
