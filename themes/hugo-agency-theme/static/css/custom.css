@@ -271,3 +271,10 @@
   visibility: visible;
   opacity: 1;
 }
+
+@media (max-width: 767px){
+  #portfolio .col-md-3 {
+    width: 50%;
+    float: left;
+  }
+}
