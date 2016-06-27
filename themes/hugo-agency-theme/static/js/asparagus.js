@@ -9,6 +9,12 @@
  var $printmedia = $('#printmedia');
  var printmediaTopPos = $printmedia.position().top;
 
+ window.addEventListener("resize", function(){
+   paralaxTopPos = $parallax.position().top;
+   printmediaTopPos = $printmedia.position().top;
+   console.log("resize: " + printmediaTopPos);
+ });
+
 (function() {
   var lastScrollY = 0,
       ticking = false,
