@@ -21,7 +21,7 @@ function scrollToPreword(){
 function ChangeLanguage(languageName){
   if(languageName === "de"){
     if(languageName !== currentLanguage){
-      console.log("switch ln to de");
+      //console.log("switch ln to de");
       $allDEBlocks.css("display", "block");
       $allENBlocks.css("display", "none");
       currentLanguage = languageName;
@@ -29,7 +29,7 @@ function ChangeLanguage(languageName){
   }
   else if(languageName === "en"){
     if(languageName !== currentLanguage){
-      console.log("switch ln to en");
+      //console.log("switch ln to en");
       $allDEBlocks.css("display", "none");
       $allENBlocks.css("display", "block");
       currentLanguage = languageName;
@@ -47,13 +47,11 @@ function FadeImageOverTime(imageParent){
   if((currentImgIndex) < 2){
     currentImgIndex = 5;
   }
-  console.log(currentImgIndex);
   imageParent.find('img:nth-child(' + (currentImgIndex) + ')').css({"visibility": "hidden", "opacity": "0"});
   currentImgIndex++;
   if(currentImgIndex > 5){
     currentImgIndex = 2;
   }
-  console.log(currentImgIndex);
   if(currentImgIndex === 5){
     imageParent.find('img:nth-child(' + (currentImgIndex) + ')').css({"visibility": "visible", "opacity": "0", "z-index": "-1"});
   }
@@ -64,9 +62,7 @@ function FadeImageOverTime(imageParent){
   if(currentImgIndex > 5){
     currentImgIndex = 2;
   }
-  console.log(currentImgIndex);
   imageParent.find('img:nth-child(' + (currentImgIndex) + ')').css({"visibility": "visible", "opacity": "1"});
-  console.log("working");
 }
 
 function ResetImage(imageParent){

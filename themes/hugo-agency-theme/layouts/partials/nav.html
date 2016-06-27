@@ -43,15 +43,28 @@
                 </li>
                 {{ end }}
 
-                {{ if .Site.Params.theme.enable }}
-                {{ range .Site.Params.theme.row }}
-                {{ range .list }}
                 <li>
-                    <a class="page-scroll" href="#{{ .id }}">{{ .title | markdownify }}</a>
+                    <a class="page-scroll" href="#printmedia">Print-Media-Management</a>
                 </li>
-                {{ end }}
-                {{ end }}
-                {{ end }}
+                <li>
+                    <a class="page-scroll" href="#interview">Interview<br><small>(Über PMM Veränderungen)</small></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#crossmedia">Crossmedia</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#interview_2">Interview<br><small>(Über Crossmedia)</small></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#3ddruck">3D Druck</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#interview_3">Interview<br><small>(Über 3D Druck)</small></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#fieldreport">Erfahrungsberichte</a>
+                </li>
+
                 <li class="languages"><button id="language-de" title="Click to change language" onclick="ChangeLanguage('de'); return false; ">DEUTSCH</button> | <button id="language-en" title="Click to change language" onclick="ChangeLanguage('en');return false;">ENGLISCH</button></li>
             </ul>
         </div>
