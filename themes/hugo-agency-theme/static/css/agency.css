@@ -176,7 +176,6 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: 'Roboto', sans-serif;
     color: #FFF;
 }
 
@@ -184,7 +183,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fff;
+    color: #FFF;
 }
 
 .navbar-default .navbar-collapse {
@@ -211,7 +210,7 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 700;
     font-size: 22pt;
     letter-spacing: 1px;
-    color: #fff;
+    color: #FFF;
 }
 
 .navbar-default .nav li a:hover,
