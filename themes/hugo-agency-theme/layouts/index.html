@@ -31,6 +31,8 @@
 
         {{ partial "fieldreport.html" . }}
 
+        <div id="collision"></div>
+
         {{ if .Site.Params.clients_list.enable }}
             {{ partial "clients.html" . }}
         {{ end }}

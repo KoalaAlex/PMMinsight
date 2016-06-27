@@ -13,4 +13,7 @@
 {{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
 <script src="{{ .Site.BaseURL }}js/agency.js"></script>
 <script src="{{ .Site.BaseURL }}js/custom.js"></script>
+{{ "<!-- Collsion Detection -->" | safeHTML }}
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/collisionDetection.js"></script>
 {{ template "_internal/google_analytics.html" . }}
