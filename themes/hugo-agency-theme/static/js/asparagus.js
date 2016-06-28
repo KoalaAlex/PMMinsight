@@ -6,7 +6,6 @@
  // First Parallax
  var $parallax_Hands = $('#parallax_Hands');
  var parallax_HandsTopPos = $parallax_Hands.position().top;
-
  var $3ddruck = $('#druck3d');
  var p3ddruckTopPos = $3ddruck.position().top;
  // End --
@@ -42,7 +41,8 @@
  // Sixt Parallax
  var $parallax_key = $('#parallax_key');
  var parallax_key_TopPos = $parallax_key.position().top;
-
+ var $studienanfaenger = $('#studienanfaenger');
+ var studienanfaengerTopPos = $studienanfaenger.position().top;
  // End --
 
  window.addEventListener("resize", function(){
@@ -61,8 +61,8 @@
    parallax_study_heads_TopPos = $parallax_study_heads.position().top;
    fieldreportTopPos = $fieldreport.position().top;
 
+   studienanfaengerTopPos = $studienanfaenger.position().top;
    parallax_key_TopPos = $parallax_key.position().top;
-   console.log("resize: ");
  });
 
 (function() {
@@ -74,7 +74,7 @@
       bgElm_Group = document.getElementById('parallax_group-test'),
       bgElm_Study_Heads = document.getElementById('parallax_study_heads-test'),
       bgElm_Key = document.getElementById('parallax_key-test'),
-      offsetImg = 0;
+      offsetImg = 0,
       speedDivider = 4;
 
   // Update background position
@@ -122,8 +122,7 @@
       translateY(bgElm_Hands, translateValue);
     }
 
-    /*
-    if(translateValue <= fieldreportTopPos){
+    if(translateValue <= studienanfaengerTopPos){
       if (translateValue < (parallax_key_TopPos + offsetImg)){
         translateValue = 0;
       }
@@ -131,7 +130,7 @@
         translateValue = (translateValue - (parallax_key_TopPos + offsetImg)) / speedDivider;
       }
       translateY(bgElm_Key, translateValue);
-    }*/
+    }
 
     if(translateValue <= fieldreportTopPos){
       if (translateValue < (parallax_study_heads_TopPos + offsetImg)){
