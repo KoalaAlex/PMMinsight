@@ -23,6 +23,9 @@
     min-width: 50%;
     
 }
+#preword .col-lg-12 .smcx-embed {
+    display: inline-block;
+}
 #logo-start .center {
     position: absolute;
     display: block;
