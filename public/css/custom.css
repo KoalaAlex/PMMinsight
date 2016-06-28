@@ -1,3 +1,7 @@
+::selection {
+    background: #861E1A;
+    color: #ffffff;
+}
 #logo-start {
     width: 100%;
     height: 100vh;
@@ -51,7 +55,22 @@
     font-family: 'Roboto', sans-serif;
     transform: scale3d(0.3, 0.3, 0.3);
 }
-
+#fieldreport .statcounter {
+    background-image: url(../img/counter.svg);
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.yt1 {
+    margin-bottom: 50px;
+}
+.yt2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 /* Navbar */
 
 .navbar-default {
@@ -309,6 +328,7 @@
 #parallax_Hands-test {
     width: 100%;
     height: 750px;
+    margin-top: -150px;
     background-image: url('../img/Parallax-Haende_test.png');
     background-position: 50% 0;
     background-repeat: no-repeat;
@@ -335,6 +355,7 @@
 #parallax_light_picture-test {
     width: 100%;
     height: 750px;
+    margin-top: -150px;
     background-image: url('../img/Parallax-Belichtungsbild.png');
     background-position: 50% 0;
     background-repeat: no-repeat;
@@ -348,6 +369,7 @@
 #parallax_group-test {
     width: 100%;
     height: 750px;
+    margin-top: -200px;
     background-image: url('../img/Parallax-Gruppenbild.JPG');
     background-position: 50% 0;
     background-repeat: no-repeat;
@@ -361,6 +383,7 @@
 #parallax_study_heads-test {
     width: 100%;
     height: 750px;
+    margin-top: -200px;
     background-image: url('../img/Parallax-Huete.jpg');
     background-position: 50% 0;
     background-repeat: no-repeat;
@@ -374,6 +397,7 @@
 #parallax_key-test {
     width: 100%;
     height: 750px;
+    margin-top: -150px;
     background-image: url('../img/Parallax-Schluessel.png');
     background-position: 50% 0;
     background-repeat: no-repeat;
@@ -401,6 +425,13 @@
 }
 section h3.section-subheading {
     line-height: 25px;
+    margin-bottom: 30px;
+}
+section h3.section-heading {
+    margin-top: 40px;
+}
+section p {
+    margin-bottom: 20px;
 }
 #printmedia .time_clocks_sand {
     background-image: url('../img/PMMimLaufederZeit-Sanduhren.png');
@@ -413,7 +444,7 @@ section h3.section-subheading {
 }
 #crossmedia .crossmedia_icons {
     background-image: url('../img/Crossmedia-Icons.png');
-    height: 300px;
+    height: 500px;
     width: 100%;
     margin: auto;
     background-size: contain;
@@ -425,13 +456,14 @@ section h3.section-subheading {
     height: 300px;
     width: 100%;
     margin: auto;
+    margin-top: 100px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 #fieldreport .fieldreport-icons {
     background-image: url('../img/fieldreview-icons.png');
-    height: 300px;
+    height: 500px;
     width: 100%;
     margin: auto;
     background-size: contain;
@@ -440,13 +472,19 @@ section h3.section-subheading {
 }
 #interview .unslider a,
 #interview_2 .unslider a,
-#interview_3 .unslider a {
+#interview_3 .unslider a,
+#fieldreport .unslider a,
+#studienanfaenger .unslider a,
+#druck3d .unslider a {
     color: black;
     margin-top: -300px;
 }
 #interview .unslider a.next,
 #interview_2 .unslider a.next,
-#interview_3 .unslider a.next {
+#interview_3 .unslider a.next,
+#fieldreport .unslider a.next,
+#studienanfaenger .unslider a.next,
+#druck3d .unslider a.next {
     background-image: url('../img/arrow.svg');
     background-repeat: no-repeat;
     width: 20px;
@@ -454,7 +492,10 @@ section h3.section-subheading {
 }
 #interview .unslider a.prev,
 #interview_2 .unslider a.prev,
-#interview_3 .unslider a.prev {
+#interview_3 .unslider a.prev,
+#fieldreport .unslider a.prev,
+#studienanfaenger .unslider a.prev,
+#druck3d .unslider a.prev {
     background-image: url('../img/arrow.svg');
     background-repeat: no-repeat;
     width: 20px;
@@ -464,11 +505,28 @@ section h3.section-subheading {
     -o-transform: rotate3d(0, 0, 1, 180deg);
     transform: rotate3d(0, 0, 1, 180deg);
 }
+#studienanfaenger .unslider a {
+    margin-top: -140px;
+}
+#druck3d .unslider a {
+    margin-top: -180px;
+}
 #interview .row,
 #interview_2 .row,
 #interview_3 .row {
     margin-left: 30px;
     margin-right: 30px;
+}
+#footer-bar .all_sponsors {
+    text-align: center;
+}
+#footer-bar .all_sponsors a {
+    color: white;
+}
+.slider ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #portfolio a.portfolio-link img.img-responsive {
     position: absolute;
@@ -489,12 +547,12 @@ section {
     padding-top: 100px;
 }
 #printmedia {
-    padding-top: 0px;
+    padding-top: 100px;
 }
 .footersponsor {
     height: 50px;
 }
-@media (max-width: 767px) {
+. @media (max-width: 767px) {
     #portfolio .col-md-3 {
         width: 50%;
         float: left;
