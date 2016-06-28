@@ -21,7 +21,6 @@
     margin: auto;
     min-height: 50%;
     min-width: 50%;
-
 }
 #preword .col-lg-12 .smcx-embed {
     display: inline-block;
@@ -215,15 +214,14 @@
     width: 15px;
     height: 15px;
     background-image: url(../img/arrow_down.svg);
-} 
-
+}
 #footer-bar {
     position: fixed;
     z-index: 999;
     width: 100%;
     height: 150px;
     bottom: -150px;
-    background-color: rgba(136,136,136,0.95);
+    background-color: rgba(136, 136, 136, 0.95);
     -webkit-transition: bottom .5s;
     -moz-transition: bottom .5s;
     transition: bottom .5s;
@@ -299,6 +297,7 @@
 }
 
 /* Parallax */
+
 #parallax_Hands-test {
     width: 100%;
     height: 750px;
@@ -307,13 +306,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 #parallax_Hands {
     overflow: hidden;
     height: 500px;
     padding: 0px;
 }
-
 #parallax_box_key-test {
     width: 100%;
     height: 750px;
@@ -322,13 +319,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 #parallax_box_key {
     overflow: hidden;
     height: 500px;
     padding: 0px;
 }
-
 #parallax_light_picture-test {
     width: 100%;
     height: 750px;
@@ -337,13 +332,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 #parallax_light_picture {
     overflow: hidden;
     height: 500px;
     padding: 0px;
 }
-
 #parallax_group-test {
     width: 100%;
     height: 750px;
@@ -352,13 +345,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 #parallax_group {
     overflow: hidden;
     height: 500px;
     padding: 0px;
 }
-
 #parallax_study_heads-test {
     width: 100%;
     height: 750px;
@@ -367,13 +358,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 #parallax_study_heads {
     overflow: hidden;
     height: 500px;
     padding: 0px;
 }
-
 #parallax_key-test {
     width: 100%;
     height: 750px;
@@ -382,7 +371,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 #parallax_key {
     overflow: hidden;
     height: 500px;
@@ -392,92 +380,88 @@
 /* Parallax End */
 
 #preword {
-  height: 700px;
+    padding-bottom: 0;
 }
-
-#preword .container {
-  width: 50%;
-  float: right;
-}
-
 #preword .home_box {
-  background-image: url('../img/Home-Box.png');
-  height: 400px;
-  width: 50%;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  float: left;
+    background-image: url('../img/Home-Box.png');
+    height: 500px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: -40px;
 }
-
+section h3.section-subheading {
+    line-height: 25px;
+}
 #printmedia .time_clocks_sand {
-  background-image: url('../img/PMMimLaufederZeit-Sanduhren.png');
-  height: 300px;
-  width: 60%;
-  margin: auto;
-  background-size: contain;
-  background-position: center;
+    background-image: url('../img/PMMimLaufederZeit-Sanduhren.png');
+    height: 300px;
+    width: 60%;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
 }
-
 #crossmedia .crossmedia_icons {
-  background-image: url('../img/Crossmedia-Icons.png');
-  height: 300px;
-  width: 100%;
-  margin: auto;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+    background-image: url('../img/Crossmedia-Icons.png');
+    height: 300px;
+    width: 100%;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
 #druck3d .schluessel_druck_3d {
-  background-image: url('../img/3D-Druck.png');
-  height: 300px;
-  width: 100%;
-  margin: auto;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+    background-image: url('../img/3D-Druck.png');
+    height: 300px;
+    width: 100%;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
 #fieldreport .fieldreport-icons {
-  background-image: url('../img/fieldreview-icons.png');
-  height: 300px;
-  width: 100%;
-  margin: auto;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+    background-image: url('../img/fieldreview-icons.png');
+    height: 300px;
+    width: 100%;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
-#interview .unslider a, #interview_2 .unslider a, #interview_3 .unslider a{
-  color: black;
-  margin-top: -300px;
+#interview .unslider a,
+#interview_2 .unslider a,
+#interview_3 .unslider a {
+    color: black;
+    margin-top: -300px;
 }
-
-#interview .unslider a.next, #interview_2 .unslider a.next, #interview_3 .unslider a.next{
-  background-image: url('../img/arrow.svg');
-  background-repeat: no-repeat;
-  width: 20px;
-  height: 100px;
+#interview .unslider a.next,
+#interview_2 .unslider a.next,
+#interview_3 .unslider a.next {
+    background-image: url('../img/arrow.svg');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 100px;
 }
-
-#interview .unslider a.prev, #interview_2 .unslider a.prev, #interview_3 .unslider a.prev{
-  background-image: url('../img/arrow.svg');
-  background-repeat: no-repeat;
-  width: 20px;
-  height: 100px;
-  -webkit-transform: rotate3d(0,0, 1, 180deg);
-  -moz-transform: rotate3d(0,0, 1, 180deg);
-  -o-transform: rotate3d(0,0, 1, 180deg);
-  transform: rotate3d(0,0, 1, 180deg);
+#interview .unslider a.prev,
+#interview_2 .unslider a.prev,
+#interview_3 .unslider a.prev {
+    background-image: url('../img/arrow.svg');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 100px;
+    -webkit-transform: rotate3d(0, 0, 1, 180deg);
+    -moz-transform: rotate3d(0, 0, 1, 180deg);
+    -o-transform: rotate3d(0, 0, 1, 180deg);
+    transform: rotate3d(0, 0, 1, 180deg);
 }
-
-#interview .row, #interview_2 .row, #interview_3 .row {
-  margin-left: 30px;
-  margin-right: 30px;
+#interview .row,
+#interview_2 .row,
+#interview_3 .row {
+    margin-left: 30px;
+    margin-right: 30px;
 }
-
 #portfolio a.portfolio-link img.img-responsive {
     position: absolute;
     top: 0px;
