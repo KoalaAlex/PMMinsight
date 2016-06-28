@@ -442,7 +442,8 @@ section h3.section-subheading {
 #interview_2 .unslider a,
 #interview_3 .unslider a,
 #fieldreport .unslider a,
-#studienanfaenger .unslider a {
+#studienanfaenger .unslider a,
+#druck3d .unslider a {
     color: black;
     margin-top: -300px;
 }
@@ -450,7 +451,8 @@ section h3.section-subheading {
 #interview_2 .unslider a.next,
 #interview_3 .unslider a.next,
 #fieldreport .unslider a.next,
-#studienanfaenger .unslider a.next
+#studienanfaenger .unslider a.next,
+#druck3d .unslider a.next
  {
     background-image: url('../img/arrow.svg');
     background-repeat: no-repeat;
@@ -461,7 +463,8 @@ section h3.section-subheading {
 #interview_2 .unslider a.prev,
 #interview_3 .unslider a.prev,
 #fieldreport .unslider a.prev,
-#studienanfaenger .unslider a.prev {
+#studienanfaenger .unslider a.prev,
+#druck3d .unslider a.prev {
     background-image: url('../img/arrow.svg');
     background-repeat: no-repeat;
     width: 20px;
@@ -474,6 +477,10 @@ section h3.section-subheading {
 
 #studienanfaenger .unslider a {
   margin-top: -140px;
+}
+
+#druck3d .unslider a {
+  margin-top: -180px;
 }
 
 #interview .row,

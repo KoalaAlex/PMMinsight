@@ -31,6 +31,8 @@ $('#fieldreport .slider').unslider();
 
 $('#studienanfaenger .slider').unslider();
 
+$('#druck3d .slider').unslider();
+
 function ChangeLanguage(languageName){
   if(languageName === "de"){
     if(languageName !== currentLanguage){
