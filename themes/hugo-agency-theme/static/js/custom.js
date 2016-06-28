@@ -27,6 +27,10 @@ $('#interview_2 .slider').unslider();
 
 $('#interview_3 .slider').unslider();
 
+$('#fieldreport .slider').unslider();
+
+$('#studienanfaenger .slider').unslider();
+
 function ChangeLanguage(languageName){
   if(languageName === "de"){
     if(languageName !== currentLanguage){
