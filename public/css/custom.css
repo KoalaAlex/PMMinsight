@@ -26,6 +26,12 @@
     min-height: 50%;
     min-width: 50%;
 }
+.modal-body ul{
+    list-style-type: none;
+}
+.modal-body ol{
+    list-style-type: none;
+}
 #interview_2 .smcx-embed {
     margin: auto;
     margin-top: 50px;

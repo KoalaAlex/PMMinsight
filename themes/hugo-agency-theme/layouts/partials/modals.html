@@ -15,6 +15,7 @@
                         <h2>{{ .name  | markdownify }} {{ .surname  | markdownify }}</h2>
                         <p class="item-intro text-muted">{{ .category | markdownify }}</p>
                         <img class="img-responsive img-centered" src="img/students/{{ .img }}" alt="">
+                        <p>{{ .content  | markdownify }}</p>
                         <h3>Lebenslauf</h3>
                         <p>{{ .cv  | markdownify }}</p>
                         <h3>Kentnisse und Fähigkeiten</h3>
