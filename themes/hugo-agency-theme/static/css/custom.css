@@ -1,3 +1,7 @@
+::selection {
+    background: #861E1A;
+    color: #ffffff;
+}
 #logo-start {
     width: 100%;
     height: 100vh;
@@ -51,7 +55,22 @@
     font-family: 'Roboto', sans-serif;
     transform: scale3d(0.3, 0.3, 0.3);
 }
-
+#fieldreport .statcounter {
+    background-image: url(../img/counter.svg);
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.yt1 {
+    margin-bottom: 50px;
+}
+.yt2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 /* Navbar */
 
 .navbar-default {
@@ -308,7 +327,7 @@
 
 #parallax_Hands-test {
     width: 100%;
-    height: 750px;    
+    height: 750px;
     margin-top: -150px;
     background-image: url('../img/Parallax-Haende_test.png');
     background-position: 50% 0;
@@ -465,8 +484,7 @@ section p {
 #interview_3 .unslider a.next,
 #fieldreport .unslider a.next,
 #studienanfaenger .unslider a.next,
-#druck3d .unslider a.next
- {
+#druck3d .unslider a.next {
     background-image: url('../img/arrow.svg');
     background-repeat: no-repeat;
     width: 20px;
@@ -487,36 +505,29 @@ section p {
     -o-transform: rotate3d(0, 0, 1, 180deg);
     transform: rotate3d(0, 0, 1, 180deg);
 }
-
 #studienanfaenger .unslider a {
-  margin-top: -140px;
+    margin-top: -140px;
 }
-
 #druck3d .unslider a {
-  margin-top: -180px;
+    margin-top: -180px;
 }
-
 #interview .row,
 #interview_2 .row,
 #interview_3 .row {
     margin-left: 30px;
     margin-right: 30px;
 }
-
-#footer-bar .all_sponsors{
-  text-align: center;
+#footer-bar .all_sponsors {
+    text-align: center;
 }
-
-#footer-bar .all_sponsors a{
-  color: white;
+#footer-bar .all_sponsors a {
+    color: white;
 }
-
 .slider ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 #portfolio a.portfolio-link img.img-responsive {
     position: absolute;
     top: 0px;
@@ -541,7 +552,7 @@ section {
 .footersponsor {
     height: 50px;
 }
-@media (max-width: 767px) {
+. @media (max-width: 767px) {
     #portfolio .col-md-3 {
         width: 50%;
         float: left;
