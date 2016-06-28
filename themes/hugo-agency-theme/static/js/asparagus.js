@@ -3,22 +3,77 @@
  * (c) 2013 Form5 http://form5.is
  * License: MIT
  */
- var $parallax = $('#parallax');
- var paralaxTopPos = $parallax.position().top;
+ // First Parallax
+ var $parallax_Hands = $('#parallax_Hands');
+ var parallax_HandsTopPos = $parallax_Hands.position().top;
 
+ var $3ddruck = $('#3ddruck');
+ var p3ddruckTopPos = $3ddruck.position().top;
+ // End --
+
+ // Second Parallax
+ var $parallax_box_key = $('#parallax_box_key');
+ var parallax_box_key_TopPos = $parallax_box_key.position().top;
+ var $portfolio = $('#portfolio');
+ var portfolioTopPos = $portfolio.position().top;
+ // End --
+
+ // Third Parallax
+ var $parallax_light_picture = $('#parallax_light_picture');
+ var parallax_light_picture_TopPos = $parallax_light_picture.position().top;
+ var $crossmedia = $('#crossmedia');
+ var crossmediaTopPos = $crossmedia.position().top;
+ // End --
+
+ // Fourth Parallax
+ var $parallax_group = $('#parallax_group');
+ var parallax_group_TopPos = $parallax_group.position().top;
  var $printmedia = $('#printmedia');
  var printmediaTopPos = $printmedia.position().top;
+ // End --
+
+ // Fifth Parallax
+ var $parallax_study_heads = $('#parallax_study_heads');
+ var parallax_study_heads_TopPos = $parallax_study_heads.position().top;
+ var $fieldreport = $('#fieldreport');
+ var fieldreportTopPos = $fieldreport.position().top;
+ // End --
+
+ // Sixt Parallax
+ var $parallax_key = $('#parallax_key');
+ var parallax_key_TopPos = $parallax_key.position().top;
+
+ // End --
 
  window.addEventListener("resize", function(){
-   paralaxTopPos = $parallax.position().top;
+   parallax_HandsTopPos = $parallax_Hands.position().top;
+   p3ddruckTopPos = $3ddruck.position().top;
+
+   parallax_box_key_TopPos = $parallax_box_key.position().top;
+   portfolioTopPos = $portfolio.position().top;
+
+   parallax_light_picture_TopPos = $parallax_light_picture.position().top;
+   crossmediaTopPos = $crossmedia.position().top;
+
+   parallax_group_TopPos = $parallax_group.position().top;
    printmediaTopPos = $printmedia.position().top;
-   console.log("resize: " + printmediaTopPos);
+
+   parallax_study_heads_TopPos = $parallax_study_heads.position().top;
+   fieldreportTopPos = $fieldreport.position().top;
+
+   parallax_key_TopPos = $parallax_key.position().top;
+   console.log("resize: ");
  });
 
 (function() {
   var lastScrollY = 0,
       ticking = false,
-      bgElm = document.getElementById('parallax-test'),
+      bgElm_Hands = document.getElementById('parallax_Hands-test'),
+      bgElm_BoxKey = document.getElementById('parallax_box_key-test'),
+      bgElm_LightPicture = document.getElementById('parallax_light_picture-test'),
+      bgElm_Group = document.getElementById('parallax_group-test'),
+      bgElm_Study_Heads = document.getElementById('parallax_study_heads-test'),
+      bgElm_Key = document.getElementById('parallax_key-test'),
       offsetImg = 0;
       speedDivider = 4;
 
@@ -26,18 +81,67 @@
   var updatePosition = function() {
     var translateValue = lastScrollY;
 
-    // We don't want parallax to happen if scrollpos is below 0
-    if(translateValue > printmediaTopPos){
-      ticking = false;
-      return;
+    // We don't want parallax to happen if scrollpos is below Element
+    if(translateValue <= portfolioTopPos){
+      if (translateValue < (parallax_box_key_TopPos + offsetImg)){
+        translateValue = 0;
+      }
+      else{
+        translateValue = (translateValue - (parallax_box_key_TopPos + offsetImg)) / speedDivider;
+      }
+      translateY(bgElm_BoxKey, translateValue);
     }
-    if (translateValue < (paralaxTopPos + offsetImg)){
-      translateValue = 0;
+
+    if(translateValue <= printmediaTopPos){
+      if (translateValue < (parallax_group_TopPos + offsetImg)){
+        translateValue = 0;
+      }
+      else{
+        translateValue = (translateValue - (parallax_group_TopPos + offsetImg)) / speedDivider;
+      }
+      translateY(bgElm_Group, translateValue);
     }
-    else{
-      translateValue = (translateValue - (paralaxTopPos + offsetImg)) / speedDivider;
+
+    if(translateValue <= crossmediaTopPos){
+      if (translateValue < (parallax_light_picture_TopPos + offsetImg)){
+        translateValue = 0;
+      }
+      else{
+        translateValue = (translateValue - (parallax_light_picture_TopPos + offsetImg)) / speedDivider;
+      }
+      translateY(bgElm_LightPicture, translateValue);
     }
-    translateY(bgElm, translateValue);
+
+    if(translateValue <= p3ddruckTopPos){
+      if (translateValue < (parallax_HandsTopPos + offsetImg)){
+        translateValue = 0;
+      }
+      else{
+        translateValue = (translateValue - (parallax_HandsTopPos + offsetImg)) / speedDivider;
+      }
+      translateY(bgElm_Hands, translateValue);
+    }
+
+    /*
+    if(translateValue <= fieldreportTopPos){
+      if (translateValue < (parallax_key_TopPos + offsetImg)){
+        translateValue = 0;
+      }
+      else{
+        translateValue = (translateValue - (parallax_key_TopPos + offsetImg)) / speedDivider;
+      }
+      translateY(bgElm_Key, translateValue);
+    }*/
+
+    if(translateValue <= fieldreportTopPos){
+      if (translateValue < (parallax_study_heads_TopPos + offsetImg)){
+        translateValue = 0;
+      }
+      else{
+        translateValue = (translateValue - (parallax_study_heads_TopPos + offsetImg)) / speedDivider;
+      }
+      translateY(bgElm_Study_Heads, translateValue);
+    }
 
     // Stop ticking
     ticking = false;

@@ -10,24 +10,34 @@
         {{ partial "preword-de.html" . }}
         {{ partial "preword-en.html" . }}
 
+        {{ partial "parallax_box_key.html" . }}
+
         {{ if .Site.Params.portfolio.enable }}
             {{ partial "portfolio.html" . }}
         {{ end }}
 
-        {{ partial "parallax.html" . }}
+        {{ partial "parallax_group.html" . }}
 
         {{ partial "printmedia.html" . }}
 
         {{ partial "interview.html" . }}
 
+        {{ partial "parallax_light_picture.html" . }}
+
         {{ partial "crossmedia.html" . }}
 
         {{ partial "interview_2.html" . }}
+
+        {{ partial "parallax_hands.html" . }}
 
         {{ partial "3ddruck.html" . }}
 
         {{ partial "interview_3-de.html" . }}
         {{ partial "interview_3-en.html" . }}
+
+        {{ partial "parallax_key.html" . }}
+
+        {{ partial "parallax_study_heads.html" . }}
 
         {{ partial "fieldreport.html" . }}
 

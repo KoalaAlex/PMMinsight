@@ -288,7 +288,9 @@
 #portfolio a.showInfo .portfolio-caption {
     margin-top: -97px;
 }
-#parallax-test {
+
+/* Parallax */
+#parallax_Hands-test {
     width: 100%;
     height: 750px;
     background-image: url('../img/Parallax-Haende_test.png');
@@ -296,11 +298,90 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-#parallax {
+
+#parallax_Hands {
     overflow: hidden;
-    height: 750px;
+    height: 500px;
     padding: 0px;
 }
+
+#parallax_box_key-test {
+    width: 100%;
+    height: 750px;
+    background-image: url('../img/Parallax-BoxmitSchluessel.png');
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax_box_key {
+    overflow: hidden;
+    height: 500px;
+    padding: 0px;
+}
+
+#parallax_light_picture-test {
+    width: 100%;
+    height: 750px;
+    background-image: url('../img/Parallax-Belichtungsbild.png');
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax_light_picture {
+    overflow: hidden;
+    height: 500px;
+    padding: 0px;
+}
+
+#parallax_group-test {
+    width: 100%;
+    height: 750px;
+    background-image: url('../img/Parallax-Gruppenbild.JPG');
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax_group {
+    overflow: hidden;
+    height: 500px;
+    padding: 0px;
+}
+
+#parallax_study_heads-test {
+    width: 100%;
+    height: 750px;
+    background-image: url('../img/Parallax-Huete.jpg');
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax_study_heads {
+    overflow: hidden;
+    height: 500px;
+    padding: 0px;
+}
+
+#parallax_key-test {
+    width: 100%;
+    height: 750px;
+    background-image: url('../img/Parallax-Schluessel.png');
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax_key {
+    overflow: hidden;
+    height: 500px;
+    padding: 0px;
+}
+
+/* Parallax End */
+
 #portfolio a.portfolio-link img.img-responsive {
     position: absolute;
     top: 0px;
