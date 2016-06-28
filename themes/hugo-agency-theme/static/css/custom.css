@@ -22,8 +22,16 @@
     min-height: 50%;
     min-width: 50%;
 }
-#preword .col-lg-12 .smcx-embed {
-    display: inline-block;
+#interview_2 .smcx-embed {
+    margin: auto;
+    margin-top: 50px;
+}
+#interview_2 h2 {
+    text-align: -webkit-center;
+}
+#interview_2 h4 {
+    text-align: -webkit-center;
+    margin-top: 20px;
 }
 #logo-start .center {
     position: absolute;
