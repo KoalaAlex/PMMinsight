@@ -21,7 +21,7 @@
     margin: auto;
     min-height: 50%;
     min-width: 50%;
-    
+
 }
 #preword .col-lg-12 .smcx-embed {
     display: inline-block;
@@ -390,6 +390,70 @@
 }
 
 /* Parallax End */
+
+#preword {
+  height: 700px;
+}
+
+#preword .container {
+  width: 50%;
+  float: right;
+}
+
+#preword .home_box {
+  background-image: url('../img/Home-Box.png');
+  height: 100%;
+  width: 50%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+#printmedia .time_clocks_sand {
+  background-image: url('../img/PMMimLaufederZeit-Sanduhren.png');
+  height: 300px;
+  width: 60%;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+    background-repeat: no-repeat;
+}
+
+#crossmedia .crossmedia_icons {
+  background-image: url('../img/Crossmedia-Icons.png');
+  height: 300px;
+  width: 100%;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#druck3d .schluessel_druck_3d {
+  background-image: url('../img/3D-Druck.png');
+  height: 300px;
+  width: 100%;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#fieldreport .fieldreport-icons {
+  background-image: url('../img/fieldreview-icons.png');
+  height: 300px;
+  width: 100%;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#interview .unslider a, #interview_2 .unslider a, #interview_3 .unslider a{
+  color: black;
+  margin-top: -200px;
+}
 
 #portfolio a.portfolio-link img.img-responsive {
     position: absolute;

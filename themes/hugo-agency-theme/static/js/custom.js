@@ -18,6 +18,15 @@ function scrollToPreword(){
   return false;
 }
 
+// Make Unslider work
+$('#footer-bar .brands').unslider();
+
+$('#interview .slider').unslider();
+
+$('#interview_2 .slider').unslider();
+
+$('#interview_3 .slider').unslider();
+
 function ChangeLanguage(languageName){
   if(languageName === "de"){
     if(languageName !== currentLanguage){
