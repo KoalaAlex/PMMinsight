@@ -1,15 +1,16 @@
 {{ "<!-- Logo Start-Page -->" | safeHTML }}
 <section id="logo-start">
-  <video id="covervideo" poster="{{ .Site.BaseURL }}/img/transparent_1x1.png" autoplay>
-    <source src="videos/covervideo.mp4" type="video/mp4" />
-    <source src="videos/covervideo.webm" type="video/webm" />
-    Your browser does not support the video tag.
-  </video>
-  <div class="center">
-  <button type="button" id="logo-scroll" onclick="scrollToPreword()">
-    <div id="scrollanimation_hype_container" style="margin:auto;position:relative;width:600px;height:400px;overflow:hidden;" aria-live="polite">
-  		<script type="text/javascript" charset="utf-8" src="scrollanimation.hyperesources/scrollanimation_hype_generated_script.js?2491"></script>
-  	</div>
-  </div>
-  </button>
+    <div class="video_contain">
+    <video class="covervideo" poster="{{ .Site.BaseURL }}/img/videoposter.png" autoplay>
+        <source src="videos/covervideo.mp4" type="video/mp4" />
+        <source src="videos/covervideo.webm" type="video/webm" /> Your browser does not support the video tag.
+    </video>
+    </div>    
+    <div class="center">
+        <button type="button" id="logo-scroll" onclick="scrollToPreword()">
+            <div id="scrollanimation_hype_container" style="margin:auto;position:relative;width:600px;height:400px;overflow:hidden;" aria-live="polite">
+                <script type="text/javascript" charset="utf-8" src="scrollanimation.hyperesources/scrollanimation_hype_generated_script.js?2491"></script>
+            </div>
+    </div>
+    </button>
 </section>

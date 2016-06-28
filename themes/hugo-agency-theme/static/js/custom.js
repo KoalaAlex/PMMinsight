@@ -89,6 +89,13 @@ function UpdateAllImages(addThisToIndex){
   });
 }
 
+var video = $('.covervideo')[0];
+var videoJ = $('.covervideo');
+videoJ.on('ended', function () {
+    video.autoplay=false;
+    video.load();
+});
+
 $(document).ready(function() {
   var url = window.location.href;
   if(url.indexOf('#load:') != -1) {
