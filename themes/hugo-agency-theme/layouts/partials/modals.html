@@ -19,11 +19,6 @@
                         <p>{{ .cv  | markdownify }}</p>
                         <h3>Kentnisse und Fähigkeiten</h3>
                         <p>{{ .skills  | markdownify }}</p>
-                        <ul class="list-inline">
-                            <li>{{ with $.Site.Params.portfolio.modal.date }}{{ . }}{{ end }}: {{ .date }}</li>
-                            <li>{{ with $.Site.Params.portfolio.modal.category }}{{ . | markdownify }}{{ end }}: {{ .category  | markdownify }}</li>
-                        </ul>
-                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . | markdownify }}{{ end }}</button>
                     </div>
                 </div>
             </div>
