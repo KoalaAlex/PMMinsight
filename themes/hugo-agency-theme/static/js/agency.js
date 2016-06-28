@@ -24,6 +24,3 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
-
-// Make Unslider work
-$('#footer-bar .brands').unslider();

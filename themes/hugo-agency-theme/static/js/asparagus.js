@@ -7,7 +7,7 @@
  var $parallax_Hands = $('#parallax_Hands');
  var parallax_HandsTopPos = $parallax_Hands.position().top;
 
- var $3ddruck = $('#3ddruck');
+ var $3ddruck = $('#druck3d');
  var p3ddruckTopPos = $3ddruck.position().top;
  // End --
 

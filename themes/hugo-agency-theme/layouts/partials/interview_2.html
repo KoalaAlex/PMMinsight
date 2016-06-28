@@ -9,25 +9,35 @@
       </div>
     </div>
   </div>
-  <ul>
-  {{ range .Site.Params.interview_2.row }}
-  {{ range .list }}
-  <li id="{{ .id }}">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-12 text-center">
-                  {{ if .title }}
-                  <h4 class="section-heading">{{ .title | markdownify }}</h4>
-                  {{ end }}
-                  {{ if .subtitle }}
-                  <h5 class="section-heading">{{ .subtitle | markdownify }}</h5>
-                  {{ end }}
-                  <h3 class="section-subheading text-muted">{{ .description | markdownify }}</h3>
-              </div>
-          </div>
-      </div>
-  </li>
-  {{ end }}
-  {{ end }}
-  </ul>
+  <div class="slider">
+    <ul>
+    {{ range .Site.Params.interview_2.row }}
+    {{ range .list }}
+    <li id="{{ .id }}">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    {{ if .title }}
+                    <h4 class="section-heading">{{ .title | markdownify }}</h4>
+                    {{ end }}
+                    {{ if .subtitle }}
+                    <h5 class="section-heading">{{ .subtitle | markdownify }}</h5>
+                    {{ end }}
+                    <h3 class="section-subheading text-muted">{{ .description | markdownify }}</h3>
+                </div>
+            </div>
+        </div>
+    </li>
+    {{ end }}
+    {{ end }}
+    </ul>
+  </div>
+  <script>
+      (function(t, e, s, n) {
+          var o, c, p;
+          t.SMCX = t.SMCX || [], e.getElementById(n) || (o = e.getElementsByTagName(s), c = o[o.length - 1], p = e.createElement(s), p.type = "text/javascript", p.async = !0, p.id = n, p.src = ["https:" === location.protocol ? "https://" : "http://", "widget.surveymonkey.com/collect/website/js/YODmj59H2M2y7tW30pB0QE7D8pJhwALsdAHPeuNzyAIxss_2BN5_2Fwgpvh87A6_2FQBWB.js"].join(""), c.parentNode.insertBefore(p, c))
+      })(window, document, "script", "smcx-sdk");
+  </script>
+
+  <h2><a href="https://surveymonkey.com/results/SM-PLN5DFJT/" target="_blank">Ergebnisse anzeigen</a></h2>
 </section>
