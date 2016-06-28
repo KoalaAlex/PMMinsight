@@ -483,6 +483,9 @@ section {
 #printmedia {
     padding-top: 0px;
 }
+.footersponsor {
+    height: 50px;
+}
 @media (max-width: 767px) {
     #portfolio .col-md-3 {
         width: 50%;
