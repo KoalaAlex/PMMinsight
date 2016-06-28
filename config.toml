@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://koalaalex.github.io/PMMinsight/"
+baseurl = "http://dimitrihoffmann.com/PMM/"
 languageCode = "en-us"
 title = "PMMinsight"
 theme = "hugo-agency-theme"
