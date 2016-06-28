@@ -43,15 +43,7 @@
 
         {{ partial "fieldreport.html" . }}
 
-        <div id="collision"></div>
-
-        {{ if .Site.Params.clients_list.enable }}
-            {{ partial "clients.html" . }}
-        {{ end }}
-
-        {{ if .Site.Params.footer.enable }}
-            {{ partial "footer.html" . }}
-        {{ end }}
+<!--        <div id="collision"></div>-->
 
         {{ if .Site.Params.portfolio.enable }}
             {{ partial "modals.html" . }}
