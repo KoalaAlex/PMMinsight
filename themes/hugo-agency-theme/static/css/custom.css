@@ -322,6 +322,7 @@ selection {
 #footer-bar .brands ul li .imgx3 img {
     display: block;
     margin: auto;
+    max-width: 100%;
 }
 #covervideo {
     width: 100%;
@@ -525,12 +526,13 @@ section p {
 #druck3d .unslider a {
     margin-top: -180px;
 }
+/*
 #interview .row,
 #interview_2 .row,
 #interview_3 .row {
     margin-left: 30px;
     margin-right: 30px;
-}
+} */
 #footer-bar .all_sponsors {
     text-align: center;
 }
@@ -593,8 +595,13 @@ section {
         display: none;
     }
     .unslider .slider li {
+<<<<<<< HEAD
         padding-left: 30px;
         padding-right: 30px;
+=======
+      padding-left: 15px;
+      padding-right: 15px;
+>>>>>>> origin/develop
     }
     #preword iframe,
     #fieldreport iframe {
