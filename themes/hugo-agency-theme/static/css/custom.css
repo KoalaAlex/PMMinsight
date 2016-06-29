@@ -1,4 +1,4 @@
-::selection {
+selection {
     background: #861E1A;
     color: #ffffff;
 }
@@ -26,10 +26,10 @@
     min-height: 50%;
     min-width: 50%;
 }
-.modal-body ul{
+.modal-body ul {
     list-style-type: none;
 }
-.modal-body ol{
+.modal-body ol {
     list-style-type: none;
 }
 #interview_2 .smcx-embed {
@@ -77,6 +77,7 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 /* Navbar */
 
 .navbar-default {
@@ -166,10 +167,17 @@
     width: 25px;
     height: 20px;
 }
+.navbar-header .navbar-toggle.collapsed .open, .navbar-header .navbar-toggle .closing{
+    z-index: 9999;
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    right: 5px;
+}
 .cicon {
     background-image: url(../img/close.svg);
-    width: 25px;
-    height: 25px;
+    height: 100%;
+    width: 100%;
 }
 @media (min-width: 768px) {
     .navbar-toggle {
@@ -558,11 +566,9 @@ section {
 .footersponsor {
     height: 50px;
 }
-
-.row{
-  margin: 0px;
+.row {
+    margin: 0px;
 }
-
 @media (max-width: 767px) {
     #portfolio .col-md-3 {
         width: 50%;
@@ -583,26 +589,41 @@ section {
     .navbar-nav>li>a {
         line-height: 25px;
     }
-
     .video_contain {
-      display: none;
+        display: none;
     }
-
     .unslider .slider li {
-      padding-left: 30px;
-      padding-right: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
-
-    #preword iframe, #fieldreport iframe {
-      height: 250px;
-      width: 350px;
+    #preword iframe,
+    #fieldreport iframe {
+        height: 220px;
+        width: 310px;
     }
-
     section h2.section-heading {
-      font-size: 30px;
+        font-size: 30px;
     }
-
     h3 {
-      font-size: 20px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 320px) {
+    #preword iframe,
+    #fieldreport iframe {
+        height: 150px;
+        width: 250px;
+    }
+    section h2.section-heading {
+        font-size: 26px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .navbar-right {
+        padding-top: 50px;
+    }
+    .navbar-default .nav li a {
+        font-size: 20px !important;
     }
 }
