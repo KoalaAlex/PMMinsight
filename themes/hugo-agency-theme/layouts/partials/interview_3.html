@@ -1,20 +1,22 @@
 {{ "<!-- Theme -->" | safeHTML }}
-<section id="interview" class="bg-light-gray">
+<section id="interview_3" class="bg-light-gray lg-de">
   <div class="container lg-de">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">Interview</h2>
-        <h3 class="section-heading">über die PMM-Veränderung</h2>
-        <h3 class="section-subheading text-muted">mit Prof. Dr.-Ing. Witting</h3>
+        <h3 class="section-heading">über 3D-Druck</h2>
+        <h3 class="section-subheading text-muted">mit Prof. Dr.-Ing. Hartmann</h3>
         <div class="slider">
           <ul>
-          {{ range .Site.Params.theme.row }}
+          {{ range .Site.Params.interview_3.row }}
           {{ range .list }}
           <li id="{{ .id }}">
               <div class="container">
                   <div class="row">
                       <div class="col-lg-12 text-center">
+                          {{ if .title }}
                           <h4 class="section-heading">{{ .title | markdownify }}</h4>
+                          {{ end }}
                           <h3 class="section-subheading text-muted">{{ .description | markdownify }}</h3>
                       </div>
                   </div>
@@ -27,12 +29,11 @@
       </div>
     </div>
   </div>
-
   <div class="container lg-en">
-      <div class="row">
-          <div class="text-center">
-            <p>ENG DUMMY 3D Druck</p>
-        </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <p>ENG DUMMY Interview 3</p>
+      </div>
     </div>
   </div>
 </section>
