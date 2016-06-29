@@ -595,13 +595,8 @@ section {
         display: none;
     }
     .unslider .slider li {
-<<<<<<< HEAD
-        padding-left: 30px;
-        padding-right: 30px;
-=======
       padding-left: 15px;
       padding-right: 15px;
->>>>>>> origin/develop
     }
     #preword iframe,
     #fieldreport iframe {
