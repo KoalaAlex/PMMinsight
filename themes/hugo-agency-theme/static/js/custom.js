@@ -133,6 +133,8 @@ $(document).ready(function() {
       parentEl.removeClass("showInfo");
     });
 
+    GetParallaxPositions();
+
     currentImgIndex = 1;
     curretInterval = setInterval(function(){
       addThisToIndex++;

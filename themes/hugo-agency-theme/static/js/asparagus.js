@@ -45,7 +45,7 @@
  var studienanfaengerTopPos = $studienanfaenger.position().top;
  // End --
 
- window.addEventListener("resize", function(){
+ function GetParallaxPositions(){
    parallax_HandsTopPos = $parallax_Hands.position().top;
    p3ddruckTopPos = $3ddruck.position().top;
 
@@ -63,7 +63,9 @@
 
    studienanfaengerTopPos = $studienanfaenger.position().top;
    parallax_key_TopPos = $parallax_key.position().top;
- });
+ }
+
+ window.addEventListener("resize", function(){GetParallaxPositions();});
 
 (function() {
   var lastScrollY = 0,

@@ -7,8 +7,7 @@
         {{ partial "nav.html" . }}
         {{ partial "logo.html" . }}
 
-        {{ partial "preword-de.html" . }}
-        {{ partial "preword-en.html" . }}
+        {{ partial "preword.html" . }}
 
         {{ partial "parallax_box_key.html" . }}
 
@@ -42,8 +41,6 @@
         {{ partial "parallax_study_heads.html" . }}
 
         {{ partial "fieldreport.html" . }}
-
-<!--        <div id="collision"></div>-->
 
         {{ if .Site.Params.portfolio.enable }}
             {{ partial "modals.html" . }}

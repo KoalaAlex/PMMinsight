@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
 <meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
 {{ .Hugo.Generator }}
@@ -9,6 +9,8 @@
 <link href="{{ .Site.BaseURL }}css/bootstrap.min.css" rel="stylesheet">
 {{ "<!-- Custom CSS -->" | safeHTML }}
 <link href="{{ .Site.BaseURL }}css/agency.css" rel="stylesheet">
+<link href="{{ .Site.BaseURL }}css/unslider.css" rel="stylesheet" type="text/css">
+<link href="{{ .Site.BaseURL }}css/unslider-dots.css" rel="stylesheet" type="text/css">
 {{ "<!-- Custom CSS -->" | safeHTML }}
 <link href="{{ .Site.BaseURL }}css/custom.css" rel="stylesheet">
 {{ "<!-- Custom Fonts -->" | safeHTML }}
@@ -20,5 +22,3 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 {{ "<![endif]-->" | safeHTML }}
-<link href="{{ .Site.BaseURL }}css/unslider.css" rel="stylesheet" type="text/css">
-<link href="{{ .Site.BaseURL }}css/unslider-dots.css" rel="stylesheet" type="text/css">
