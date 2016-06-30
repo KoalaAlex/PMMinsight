@@ -149,8 +149,6 @@ $(document).ready(function() {
       parentEl.removeClass("showInfo");
     });
 
-    GetParallaxPositions();
-
     currentImgIndex = 1;
     curretInterval = setInterval(function(){
       addThisToIndex++;
@@ -159,4 +157,16 @@ $(document).ready(function() {
       }
       UpdateAllImages(addThisToIndex)
     }, 3000);
+    setTimeout(function(){GetParallaxPositions();}, 1000);
+
+    // OnClick
+    $('#animated_numbers .countToNumber').click(function(){
+      var child = $(this).find('.number-text');
+      if(child.hasClass('hide')){
+        child.removeClass('hide');
+      }
+      else{
+        child.addClass('hide');
+      };
+    });
 });

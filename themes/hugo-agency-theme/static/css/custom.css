@@ -594,6 +594,108 @@ section {
     display: inline-block;
 }
 
+#animated_numbers {
+  width: 600px;
+  height: 600px;
+  background-color: #EEE;
+}
+
+#animated_numbers .countToNumber {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: grey;
+  text-align: center;
+}
+#animated_numbers .countToNumber p{
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  height: 100%;
+}
+
+#animated_numbers .countToNumber .number-text{
+  visibility: visible;
+  width: 200px;
+  height: 100px;
+  background-color: rgba(0,0,0,0.95);
+  color: white;
+  font-size: 20px;
+  vertical-align: middle;
+  pointer-events: none;
+  margin-left: 50px;
+  margin-top: -225px;
+  border-radius: 5px;
+}
+
+#animated_numbers .countToNumber .number-text.hide {
+  visibility: hidden;
+}
+
+#animated_numbers .countToNumber.n_1 {
+  width: 200px;
+  height: 200px;
+  background-color: #7e66a0;
+  left: 0px;
+  margin-top: 120px;
+  font-size: 60px;
+}
+#animated_numbers .countToNumber.n_1 p{
+  font-size: 60px;
+}
+#animated_numbers .countToNumber.n_1 .number-text {
+  margin-left: 100px;
+  margin-top: -325px;
+}
+#animated_numbers .countToNumber.n_2 {
+  background-color: #bd5250;
+  left: 40px;
+  margin-top: 200px;
+}
+#animated_numbers .countToNumber.n_3 {
+  background-color: #5183bb;
+  left: 80px;
+  margin-top: 10px;
+}
+#animated_numbers .countToNumber.n_4 {
+  background-color: #9db95f;
+  left: 200px;
+  margin-top: 100px;
+}
+#animated_numbers .countToNumber.n_5 {
+  background-color: #52acc4;
+  left: 500px;
+  margin-top: 70px;
+}
+#animated_numbers .countToNumber.n_6 {
+  background-color: #9db95f;
+  left: 800px;
+  margin-top: 100px;
+}
+#animated_numbers .countToNumber.n_7 {
+  background-color: #52acc4;
+  left: 800px;
+  margin-top: 100px;
+}
+#animated_numbers .countToNumber.n_8 {
+  background-color: #7e66a0;
+  left: 800px;
+  margin-top: 100px;
+}
+#animated_numbers .countToNumber.n_9 {
+  background-color: #f4964f;
+  left: 800px;
+  margin-top: 100px;
+}
+
+#animated_numbers .countToNumber.n_10 {
+  background-color: #bd5250;
+  left: 800px;
+  margin-top: 100px;
+}
+
 @media (max-width: 768px) {
     #portfolio .col-md-3 {
         width: 50%;
