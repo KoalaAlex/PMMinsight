@@ -1,4 +1,4 @@
-selection {
+::selection {
     background: #861E1A;
     color: #ffffff;
 }
@@ -766,6 +766,12 @@ section {
     #fieldreport .fieldreport-icons {
         height: 230px;
     }
+    #fieldreport .fieldreport-icons {
+        height: 300px;
+    }
+    #fieldreport .statcounter {
+        height: 330px;
+    }
     #preword {
         padding-top: 80px;
     }
@@ -964,7 +970,10 @@ section {
         height: 200px;
     }
     #fieldreport .fieldreport-icons {
-        height: 1800px;
+        height: 250px;
+    }
+    #fieldreport .statcounter {
+        height: 300px;
     }
     #preword {
         padding-top: 60px;
