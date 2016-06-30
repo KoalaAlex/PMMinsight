@@ -487,6 +487,17 @@ section p {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+#interview .unslider .slider,
+#interview_2 .unslider .slider,
+#interview_3 .unslider .slider,
+#fieldreport .unslider .slider,
+#studienanfaenger .unslider .slider,
+#druck3d .unslider .slider {
+    width: 80%;
+    display: inline-block;
+}
+
 #interview .unslider a,
 #interview_2 .unslider a,
 #interview_3 .unslider a,
@@ -494,7 +505,6 @@ section p {
 #studienanfaenger .unslider a,
 #druck3d .unslider a {
     color: black;
-    margin-top: -300px;
 }
 #interview .unslider a.next,
 #interview_2 .unslider a.next,
@@ -502,10 +512,13 @@ section p {
 #fieldreport .unslider a.next,
 #studienanfaenger .unslider a.next,
 #druck3d .unslider a.next {
+    display: inline-block;
+    width: 5%;
+    right: 10px;
     background-image: url('../img/arrow.svg');
     background-repeat: no-repeat;
-    width: 20px;
-    height: 100px;
+    background-position: center;
+    height: 100%;
 }
 #interview .unslider a.prev,
 #interview_2 .unslider a.prev,
@@ -513,20 +526,17 @@ section p {
 #fieldreport .unslider a.prev,
 #studienanfaenger .unslider a.prev,
 #druck3d .unslider a.prev {
+    display: inline-block;
+    width: 5%;
+    left: 10px;
     background-image: url('../img/arrow.svg');
     background-repeat: no-repeat;
-    width: 20px;
-    height: 100px;
+    background-position: center;
+    height: 100%;
     -webkit-transform: rotate3d(0, 0, 1, 180deg);
     -moz-transform: rotate3d(0, 0, 1, 180deg);
     -o-transform: rotate3d(0, 0, 1, 180deg);
     transform: rotate3d(0, 0, 1, 180deg);
-}
-#studienanfaenger .unslider a {
-    margin-top: -140px;
-}
-#druck3d .unslider a {
-    margin-top: -180px;
 }
 
 /*
