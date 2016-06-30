@@ -610,7 +610,6 @@ section {
         font-size: 20px;
     }
 }
-<<<<<<< HEAD
 
 /**
  * VH and VW units can cause issues on iOS devices: http://caniuse.com/#feat=viewport-units
@@ -718,7 +717,6 @@ section {
     height: 1366px;
   }
 }
-=======
 @media (max-width: 320px) {
     #preword iframe,
     #fieldreport iframe {
@@ -738,4 +736,3 @@ section {
         font-size: 20px !important;
     }
 }
->>>>>>> 025c3d2332b5602d58ff792d9c73303b769d12fb
