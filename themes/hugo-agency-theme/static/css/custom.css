@@ -26,6 +26,10 @@ selection {
     min-height: 50%;
     min-width: 50%;
 }
+.slidercontainer {
+    text-align: center;
+    vertical-align: text-top;
+}
 .modal-body ul {
     list-style-type: none;
 }
@@ -76,6 +80,14 @@ selection {
 .yt2 {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+#starco {
+    height: 75vh;
+    margin-bottom: 0px;
+}
+#findspon {
+    height: 75vh;
+    margin-bottom: 0px;
 }
 
 /* Navbar */
@@ -479,7 +491,6 @@ section p {
     background-repeat: no-repeat;
     background-position: center;
 }
-
 #interview .unslider .slider,
 #interview_2 .unslider .slider,
 #interview_3 .unslider .slider,
@@ -489,7 +500,6 @@ section p {
     width: 80%;
     display: inline-block;
 }
-
 #interview .unslider a,
 #interview_2 .unslider a,
 #interview_3 .unslider a,
@@ -547,7 +557,6 @@ section p {
 }
 .slider ul {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 #portfolio a.portfolio-link img.img-responsive {
@@ -567,6 +576,7 @@ section p {
 }
 section {
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 #printmedia {
     padding-top: 100px;
@@ -577,7 +587,6 @@ section {
 .row {
     margin: 0px;
 }
-
 #modalAllSponsors .modal-content {
     background-color: rgba(0, 0, 0, 0.95);
 }
@@ -593,7 +602,6 @@ section {
     margin: 20px;
     display: inline-block;
 }
-
 @media (max-width: 768px) {
     #portfolio .col-md-3 {
         width: 50%;
@@ -628,7 +636,6 @@ section {
         background-image: url(../img/videoposter.png);
         background-size: cover;
         background-repeat: no-repeat;
-
     }
     .covervideo {
         display: none;
@@ -647,6 +654,12 @@ section {
     }
     h3 {
         font-size: 20px;
+    }
+    #crossmedia .crossmedia_icons {
+        height: 250px;
+    }
+    #fieldreport .fieldreport-icons {
+        height: 230px;
     }
 }
 
@@ -805,5 +818,11 @@ section {
     }
     #modalAllSponsors .modal-content h2 {
         font-size: 2.6em;
+    }
+    #crossmedia .crossmedia_icons {
+        height: 200px;
+    }
+    #fieldreport .fieldreport-icons {
+        height: 1800px;
     }
 }
