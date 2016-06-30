@@ -15,7 +15,10 @@ selection {
     left: -50%;
     width: 200%;
     height: 200%;
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 }
 .covervideo {
     position: absolute;
@@ -585,37 +588,40 @@ section {
 .row {
     margin: 0px;
 }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 #modalAllSponsors .modal-content {
-  background-color: rgba(0,0,0, 0.95);
+    background-color: rgba(0, 0, 0, 0.95);
 }
-
-#modalAllSponsors .modal-content h2{
-  background-color: white;
+#modalAllSponsors .modal-content h2 {
+    background-color: white;
 }
-
-#modalAllSponsors .close-modal .lr, #modalAllSponsors .close-modal .rl{
-  background-color: white;
+#modalAllSponsors .close-modal .lr,
+#modalAllSponsors .close-modal .rl {
+    background-color: white;
 }
-
-#modalAllSponsors .sponsors_svg img{
-  width: 200px;
-  margin: 20px;
-  display: inline-block;
+#modalAllSponsors .sponsors_svg img {
+    width: 200px;
+    margin: 20px;
+    display: inline-block;
 }
+<<<<<<< Updated upstream
 
 @media (max-width: 767px) {
+=======
+@media (max-width: 768px) {
+>>>>>>> Stashed changes
     #portfolio .col-md-3 {
         width: 50%;
         float: left;
     }
-
-    #modalAllSponsors .sponsors_svg img{
-      width: 120px;
-      margin: 10px;
-      display: inline-block;
+    #modalAllSponsors .sponsors_svg img {
+        width: 120px;
+        margin: 10px;
+        display: inline-block;
     }
-
     .navbar-default .navbar-collapse {
         width: 100vw;
     }
@@ -638,9 +644,14 @@ section {
         height: 100%;
         background-position: center;
         background-image: url(../img/videoposter.png);
+<<<<<<< Updated upstream
     background-size: cover;
     background-repeat: no-repeat;
 
+=======
+        background-size: cover;
+        background-repeat: no-repeat;
+>>>>>>> Stashed changes
     }
     .covervideo {
         display: none;
@@ -672,101 +683,125 @@ section {
  * iOS Resolution Quick Reference: http://www.iosres.com/
  */
 
+
 /**
  * iPhoneSE with portrait orientation.
  */
-@media all and (device-width: 640px) and (device-height: 1136px) and (orientation:portrait){
-  .navbar-collapse.in {
-    height: 320px;
-  }
+
+@media all and (device-width: 640px) and (device-height: 1136px) and (orientation:portrait) {
+    .navbar-collapse.in {
+        height: 320px;
+    }
 }
+
 /**
  * iPhoneSE with landscape orientation.
  */
-@media all and (device-width: 640px) and (device-height: 1136px) and (orientation:landscape){
-  .navbar-collapse.in {
-    height: 568px;
-  }
+
+@media all and (device-width: 640px) and (device-height: 1136px) and (orientation:landscape) {
+    .navbar-collapse.in {
+        height: 568px;
+    }
 }
+
 /**
  * iPhone5 with portrait orientation.
  */
-@media all and (device-width: 640px) and (device-height: 1136px) and (orientation:portrait){
-  .navbar-collapse.in {
-    height: 1136px;
-  }
+
+@media all and (device-width: 640px) and (device-height: 1136px) and (orientation:portrait) {
+    .navbar-collapse.in {
+        height: 1136px;
+    }
 }
+
 /**
  * iPhone5 with landscape orientation.
  */
-@media all and (device-width: 640px) and (device-height: 1136px) and (orientation:landscape){
-  .navbar-collapse.in {
-    height: 375px;
-  }
+
+@media all and (device-width: 640px) and (device-height: 1136px) and (orientation:landscape) {
+    .navbar-collapse.in {
+        height: 375px;
+    }
 }
+
 /**
  * iPhone6 with portrait orientation.
  */
-@media all and (device-width: 750px) and (device-height: 1334px) and (orientation:portrait){
-  .navbar-collapse.in {
-    padding-bottom: 667px;
-  }
+
+@media all and (device-width: 750px) and (device-height: 1334px) and (orientation:portrait) {
+    .navbar-collapse.in {
+        padding-bottom: 667px;
+    }
 }
+
 /**
  * iPhone6 with landscape orientation.
  */
-@media all and (device-width: 750px) and (device-height: 1334px) and (orientation:landscape){
-  .navbar-collapse.in {
-    padding-bottom: 375px;
-  }
+
+@media all and (device-width: 750px) and (device-height: 1334px) and (orientation:landscape) {
+    .navbar-collapse.in {
+        padding-bottom: 375px;
+    }
 }
+
 /**
  * iPhone6Plus with portrait orientation.
  */
-@media all and (device-width: 1242px) and (device-height: 2208px) and (orientation:portrait){
-  .navbar-collapse.in {
-    height: 414px;
-  }
+
+@media all and (device-width: 1242px) and (device-height: 2208px) and (orientation:portrait) {
+    .navbar-collapse.in {
+        height: 414px;
+    }
 }
+
 /**
  * iPhone6Plus with landscape orientation.
  */
-@media all and (device-width: 1242px) and (device-height: 2208px) and (orientation:landscape){
-  .navbar-collapse.in {
-    height: 736px;
-  }
+
+@media all and (device-width: 1242px) and (device-height: 2208px) and (orientation:landscape) {
+    .navbar-collapse.in {
+        height: 736px;
+    }
 }
+
 /**
  * PadMini / iPadAir with portrait orientation.
  */
-@media all and (device-width: 1536px) and (device-height: 2048px) and (orientation:portrait){
-  .navbar-collapse.in {
-    height: 1024px;
-  }
+
+@media all and (device-width: 1536px) and (device-height: 2048px) and (orientation:portrait) {
+    .navbar-collapse.in {
+        height: 1024px;
+    }
 }
+
 /**
  * PadMini / iPadAir with landscape orientation.
  */
-@media all and (device-width: 1536px) and (device-height: 2048px) and (orientation:landscape){
-  .navbar-collapse.in {
-    height: 768px;
-  }
+
+@media all and (device-width: 1536px) and (device-height: 2048px) and (orientation:landscape) {
+    .navbar-collapse.in {
+        height: 768px;
+    }
 }
+
 /**
  * PadPro with portrait orientation.
  */
-@media all and (device-width: 2048px) and (device-height: 2732px) and (orientation:portrait){
-  .navbar-collapse.in {
-    height: 1024px;
-  }
+
+@media all and (device-width: 2048px) and (device-height: 2732px) and (orientation:portrait) {
+    .navbar-collapse.in {
+        height: 1024px;
+    }
 }
+
 /**
  * PadPro with landscape orientation.
  */
-@media all and (device-width: 2048px) and (device-height: 2732px) and (orientation:landscape){
-  .navbar-collapse.in {
-    height: 1366px;
-  }
+
+@media all and (device-width: 2048px) and (device-height: 2732px) and (orientation:landscape) {
+    .navbar-collapse.in {
+        height: 1366px;
+    }
 }
 @media (max-width: 320px) {
     #preword iframe,
