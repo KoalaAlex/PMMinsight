@@ -29,7 +29,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                   <div class="modal-body lg-en">
                       <h2>{{ .name  | markdownify }} {{ .surname  | markdownify }}</h2>
-                      {{ if .contentEN }}
+                      {{ if .categoryEN }}
                       <p class="item-intro text-muted">{{ .categoryEN | markdownify }}</p>
                       {{ end }}
                       <img class="img-responsive img-centered" src="img/students/{{ .img }}" alt=""/>
