@@ -25,7 +25,21 @@
   <div class="container lg-en">
       <div class="row">
           <div class="text-center">
-            <p>ENG DUMMY 3D Druck</p>
+        <h2 class="section-heading">Interview</h2>
+        <h3 class="section-heading">Bachelor Degree Change in Print Media Management</h2>
+        <h3 class="section-subheading text-muted">with Prof. Dr.-Ing. Witting</h3>
+        <div class="slider">
+          <ul>
+          {{ range .Site.Params.theme.row }}
+          {{ range .list }}
+          <li id="{{ .id }}">
+              <h4 class="section-heading">{{ .title | markdownify }}</h4>
+              <h3 class="section-subheading text-muted">{{ .description | markdownify }}</h3>
+          </li>
+          {{ end }}
+          {{ end }}
+          </ul>
+        </div>
         </div>
     </div>
   </div>
