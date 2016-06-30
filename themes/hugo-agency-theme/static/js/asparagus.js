@@ -45,8 +45,8 @@
  var studienanfaengerTopPos = $studienanfaenger.position().top;
  // End --
 
- var $animateNumbers = $('#animated_numbers');
- var animateNumbersTopValue = $animateNumbers.position().top - window.screen.height/2;
+ //var $animateNumbers = $('#animated_numbers');
+ //var animateNumbersTopValue = $animateNumbers.position().top;
 
  var onceActive = false;
 
@@ -70,7 +70,7 @@
    parallax_key_TopPos = $parallax_key.position().top;
 
    // Addition
-   animateNumbersTopValue = $animateNumbers.position().top - window.screen.height/2;
+  // animateNumbersTopValue = $animateNumbers.position().top;
  }
 
  // countNubers
@@ -167,8 +167,8 @@
       }
       translateY(bgElm_Study_Heads, translateValue);
     }
-    console.log(translateValue + "  " + animateNumbersTopValue);
-    if(translateValue >= animateNumbersTopValue){
+
+    /*if(translateValue >= animateNumbersTopValue){
       if(onceActive === false){
         onceActive = true;
         FadeAllNumbers();
@@ -176,7 +176,7 @@
       else{
         onceActive = false;
       }
-    }
+    } */
 
     // Stop ticking
     ticking = false;
