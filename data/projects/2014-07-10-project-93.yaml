@@ -17,10 +17,13 @@ cv: <b>Ausbildung:</b><br>09/2012 – 08/2014<br>Wirtschaftsassistent, Fachhochs
 
 skills: <ul><li><b>Teamplayer</b> – Ich arbeite gerne im Team mit anderen Menschen zusammen<li><b>Sprachbegeistert</b> – Ich spreche fließend Englisch. Durch den Besuch einer Sprachschule beherrsche ich außerdem Kenntnisse in den Sprachen Französisch und Spanisch.</li></ul>
 
-contentEN: cangeThis
 
-cvEN: changeThis
+categoryEN: Marketing
 
-skillsEN: changeThis
+contentEN: <ol><li><strong>Since being at HdM</strong>, I have grown personally and discovered new interests.</li><li><strong>After I graduate from HdM</strong>, I would like to travel, gain new experiences and develop my linguistic proficiency.</li><li><strong>Before exams</strong>, it becomes obvious that studies are no walk in the park and one must be diligent for success.</li></ol>
 
-categoryEN: changeThis
+cvEN: <strong>Education</strong><br>09/2012 – 08/2014<br>Administrative assistant, Advanced Technical College Certificate<br>Rudolf Eberle Schule, Bad Säckingen
+
+skillsEN: <ul><li><strong>Team player</strong> – I enjoy working in a team together with other people.</li><li>Linguistically gifted</strong> – I speak English fluently. Moreover, I attended a language school where I obtained some knowledge of French and Spanish.</li></ul>
+
+categoryEN: Marketing
