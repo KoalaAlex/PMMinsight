@@ -384,16 +384,9 @@ selection {
 }
 #parallax_group-test {
     width: 100%;
-    height: 750px;
-    margin-top: -200px;
-    background-image: url('../img/Parallax-Gruppenbild.JPG');
-    background-position: 50% 0;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 #parallax_group {
     overflow: hidden;
-    height: 500px;
     padding: 0px;
 }
 #parallax_study_heads-test {
