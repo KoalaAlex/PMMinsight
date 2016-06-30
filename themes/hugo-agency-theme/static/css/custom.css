@@ -15,10 +15,6 @@ selection {
     left: -50%;
     width: 200%;
     height: 200%;
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 }
 .covervideo {
     position: absolute;
@@ -588,10 +584,7 @@ section {
 .row {
     margin: 0px;
 }
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
 #modalAllSponsors .modal-content {
     background-color: rgba(0, 0, 0, 0.95);
 }
@@ -607,12 +600,8 @@ section {
     margin: 20px;
     display: inline-block;
 }
-<<<<<<< Updated upstream
 
-@media (max-width: 767px) {
-=======
 @media (max-width: 768px) {
->>>>>>> Stashed changes
     #portfolio .col-md-3 {
         width: 50%;
         float: left;
@@ -644,14 +633,9 @@ section {
         height: 100%;
         background-position: center;
         background-image: url(../img/videoposter.png);
-<<<<<<< Updated upstream
-    background-size: cover;
-    background-repeat: no-repeat;
-
-=======
         background-size: cover;
         background-repeat: no-repeat;
->>>>>>> Stashed changes
+
     }
     .covervideo {
         display: none;
