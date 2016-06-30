@@ -11,10 +11,10 @@
         <div class="container lg-de">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
+                    <div class="modal-body lg-de">
                         <h2>{{ .name  | markdownify }} {{ .surname  | markdownify }}</h2>
                         <p class="item-intro text-muted">{{ .category | markdownify }}</p>
-                        <img class="img-responsive img-centered" src="img/students/{{ .img }}" alt="">
+                        <img class="img-responsive img-centered" src="img/students/{{ .img }}" alt=""/>
                         <p>{{ .content  | markdownify }}</p>
                         <h3>Lebenslauf</h3>
                         <p>{{ .cv  | markdownify }}</p>
@@ -27,7 +27,24 @@
         <div class="container lg-en">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                  <p>Dummy Txt Eng</p>
+                  <div class="modal-body lg-en">
+                      <h2>{{ .name  | markdownify }} {{ .surname  | markdownify }}</h2>
+                      {{ if .contentEN }}
+                      <p class="item-intro text-muted">{{ .categoryEN | markdownify }}</p>
+                      {{ end }}
+                      <img class="img-responsive img-centered" src="img/students/{{ .img }}" alt=""/>
+                      {{ if .contentEN }}
+                      <p>{{ .contentEN  | markdownify }}</p>
+                      {{ end }}
+                      <h3>Curriculum vitae</h3>
+                      {{ if .cvEN }}
+                      <p>{{ .cvEN  | markdownify }}</p>
+                      {{ end }}
+                      <h3>Skills</h3>
+                      {{ if .skillsEN }}
+                      <p>{{ .skillsEN  | markdownify }}</p>
+                      {{ end }}
+                  </div>
                 </div>
             </div>
         </div>
