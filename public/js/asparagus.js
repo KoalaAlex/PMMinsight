@@ -45,7 +45,12 @@
  var studienanfaengerTopPos = $studienanfaenger.position().top;
  // End --
 
- window.addEventListener("resize", function(){
+ //var $animateNumbers = $('#animated_numbers');
+ //var animateNumbersTopValue = $animateNumbers.position().top;
+
+ var onceActive = false;
+
+ function GetParallaxPositions(){
    parallax_HandsTopPos = $parallax_Hands.position().top;
    p3ddruckTopPos = $3ddruck.position().top;
 
@@ -63,7 +68,28 @@
 
    studienanfaengerTopPos = $studienanfaenger.position().top;
    parallax_key_TopPos = $parallax_key.position().top;
- });
+
+   // Addition
+  // animateNumbersTopValue = $animateNumbers.position().top;
+ }
+
+ // countNubers
+ function FadeAllNumbers(){
+     $('.count').each(function () {
+       $(this).prop('Counter',0).animate({
+           Counter: $(this).text()
+       }, {
+           duration: 4000,
+           easing: 'swing',
+           step: function (now) {
+               $(this).text(Math.ceil(now));
+           }
+       });
+   });
+   console.log("fadeNumbers");
+ };
+
+ window.addEventListener("resize", function(){GetParallaxPositions();});
 
 (function() {
   var lastScrollY = 0,
@@ -141,6 +167,16 @@
       }
       translateY(bgElm_Study_Heads, translateValue);
     }
+
+    /*if(translateValue >= animateNumbersTopValue){
+      if(onceActive === false){
+        onceActive = true;
+        FadeAllNumbers();
+      }
+      else{
+        onceActive = false;
+      }
+    } */
 
     // Stop ticking
     ticking = false;

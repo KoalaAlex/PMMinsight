@@ -237,7 +237,8 @@
         margin-left: 0px;
     }
 }
-.navbar-default .navbar-collapse .languages {
+/*
+.lanstyle {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     letter-spacing: 1px;
@@ -248,12 +249,15 @@
     position: absolute;
     right: 30px;
     bottom: 20px;
+    cursor: pointer;
 }
+*/
 #language-de,
 #language-en {
     display: inline;
     background: none;
     border: none;
+    cursor: pointer;
 }
 #language-de:hover,
 #language-en:hover {
