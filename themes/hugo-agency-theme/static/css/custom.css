@@ -608,3 +608,110 @@ section {
       font-size: 20px;
     }
 }
+
+/**
+ * VH and VW units can cause issues on iOS devices: http://caniuse.com/#feat=viewport-units
+ *
+ * To overcome this, create media queries that target the width, height, and orientation of iOS devices.
+ * It isn't optimal, but there is really no other way to solve the problem. In this example, I am fixing
+ * the height of element `.foo` —which is a full width and height cover image.
+ *
+ * iOS Resolution Quick Reference: http://www.iosres.com/
+ */
+
+/**
+ * iPhoneSE with portrait orientation.
+ */
+@media all and (device-width: 640px) and (device-height: 1136px) and (orientation:portrait){
+  .navbar-collapse.in {
+    height: 320px;
+  }
+}
+/**
+ * iPhoneSE with landscape orientation.
+ */
+@media all and (device-width: 640px) and (device-height: 1136px) and (orientation:landscape){
+  .navbar-collapse.in {
+    height: 568px;
+  }
+}
+/**
+ * iPhone5 with portrait orientation.
+ */
+@media all and (device-width: 640px) and (device-height: 1136px) and (orientation:portrait){
+  .navbar-collapse.in {
+    height: 1136px;
+  }
+}
+/**
+ * iPhone5 with landscape orientation.
+ */
+@media all and (device-width: 640px) and (device-height: 1136px) and (orientation:landscape){
+  .navbar-collapse.in {
+    height: 375px;
+  }
+}
+/**
+ * iPhone6 with portrait orientation.
+ */
+@media all and (device-width: 750px) and (device-height: 1334px) and (orientation:portrait){
+  .navbar-collapse.in {
+    padding-bottom: 667px;
+  }
+}
+/**
+ * iPhone6 with landscape orientation.
+ */
+@media all and (device-width: 750px) and (device-height: 1334px) and (orientation:landscape){
+  .navbar-collapse.in {
+    padding-bottom: 375px;
+  }
+}
+/**
+ * iPhone6Plus with portrait orientation.
+ */
+@media all and (device-width: 1242px) and (device-height: 2208px) and (orientation:portrait){
+  .navbar-collapse.in {
+    height: 414px;
+  }
+}
+/**
+ * iPhone6Plus with landscape orientation.
+ */
+@media all and (device-width: 1242px) and (device-height: 2208px) and (orientation:landscape){
+  .navbar-collapse.in {
+    height: 736px;
+  }
+}
+/**
+ * PadMini / iPadAir with portrait orientation.
+ */
+@media all and (device-width: 1536px) and (device-height: 2048px) and (orientation:portrait){
+  .navbar-collapse.in {
+    height: 1024px;
+  }
+}
+/**
+ * PadMini / iPadAir with landscape orientation.
+ */
+@media all and (device-width: 1536px) and (device-height: 2048px) and (orientation:landscape){
+  .navbar-collapse.in {
+    height: 768px;
+  }
+}
+/**
+ * PadPro with portrait orientation.
+ */
+@media all and (device-width: 2048px) and (device-height: 2732px) and (orientation:portrait){
+  .navbar-collapse.in {
+    height: 1024px;
+  }
+}
+/**
+ * PadPro with landscape orientation.
+ */
+@media all and (device-width: 2048px) and (device-height: 2732px) and (orientation:landscape){
+  .navbar-collapse.in {
+    height: 1366px;
+  }
+}
