@@ -16,8 +16,9 @@
             <a class="navbar-brand page-scroll" href="#page-top">{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</a>
         </div>
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
+        
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right lg-de">
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
@@ -55,10 +56,55 @@
                 <li>
                     <a class="page-scroll" href="#fieldreport">Erfahrungsberichte</a>
                 </li>
-
-                <li class="languages"><button id="language-de" title="Click to change language" onclick="ChangeLanguage('de'); return false; ">DEUTSCH</button> | <button id="language-en" title="Click to change language" onclick="ChangeLanguage('en');return false;">ENGLISCH</button></li>
+                <button class="languages" id="language-de" title="Click to change language" onclick="ChangeLanguage('de'); return false; " ontouch="ChangeLanguage('de'); return false; "><b><font color="#861E1A">DEUTSCH</font></b></button> | <button class="languages" id="language-en" title="Click to change language" onclick="ChangeLanguage('en');return false;" ontouch="ChangeLanguage('en');return false;">ENGLISCH</button>
             </ul>
+            
+            
+            <ul class="nav navbar-nav navbar-right lg-en">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+
+                {{ range .Site.Menus.prepend }}
+                <li>
+                    <a href="{{ .URL }}">{{ .Name | markdownify }}</a>
+                </li>
+                {{ end }}
+
+                {{ if .Site.Params.services.enable }}
+                <li>
+                    <a class="page-scroll" href="#preword">Preword</a>
+                </li>
+                {{ end }}
+
+                {{ if .Site.Params.portfolio.enable }}
+                <li>
+                    <a class="page-scroll" href="#portfolio">Gallery</a>
+                </li>
+                {{ end }}
+
+                <li>
+                    <a class="page-scroll" href="#printmedia">PMM - over Time</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#crossmedia">Crossmedia</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#3ddruck">3D Printing</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#studienanfaenger">From Freshmen to Graduate</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#fieldreport">Opinions</a>
+                </li>
+                 <button class="languages" id="language-de" title="Click to change language" onclick="ChangeLanguage('de'); return false; ">DEUTSCH</button> | <button class="languages" id="language-en" title="Click to change language" onclick="ChangeLanguage('en');return false;"><b><font color="#861E1A">ENGLISCH</font></b></button>
+            </ul>
+            
+           
         </div>
+        
+
         {{ "<!-- /.navbar-collapse -->" | safeHTML }}
     </div>
     {{ "<!-- /.container-fluid -->" | safeHTML }}

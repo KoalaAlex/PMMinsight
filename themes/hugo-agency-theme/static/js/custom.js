@@ -107,9 +107,13 @@ function UpdateAllImages(addThisToIndex){
 var video = $('.covervideo')[0];
 var videoJ = $('.covervideo');
 videoJ.on('ended', function () {
-    video.autoplay=false;
-    video.load();
+    part();
 });
+
+function part(){
+    $(".covervideo").css({"display": "none"});
+    $(".video_contain").css({"position": "relative", "top": "0", "left": "0", "height": "100%", "width": "100%", "background-image": "url(../img/videoposter.png)", "background-size": "cover", "background-repeat": "no-repeat", "background-position": "center"});
+}
 
 var navOpen = false;
 function ToggleScrollable(){

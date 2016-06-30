@@ -1,4 +1,4 @@
-selection {
+::selection {
     background: #861E1A;
     color: #ffffff;
 }
@@ -32,9 +32,11 @@ selection {
 }
 .modal-body ul {
     list-style-type: none;
+    padding-left: 0px;
 }
 .modal-body ol {
     list-style-type: none;
+    padding-left: 0px;
 }
 #interview_2 .smcx-embed {
     margin: auto;
@@ -235,7 +237,8 @@ selection {
         margin-left: 0px;
     }
 }
-.navbar-default .navbar-collapse .languages {
+/*
+.lanstyle {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     letter-spacing: 1px;
@@ -246,12 +249,15 @@ selection {
     position: absolute;
     right: 30px;
     bottom: 20px;
+    cursor: pointer;
 }
+*/
 #language-de,
 #language-en {
     display: inline;
     background: none;
     border: none;
+    cursor: pointer;
 }
 #language-de:hover,
 #language-en:hover {
@@ -764,6 +770,48 @@ section {
     #fieldreport .fieldreport-icons {
         height: 230px;
     }
+    #fieldreport .fieldreport-icons {
+        height: 300px;
+    }
+    #fieldreport .statcounter {
+        height: 330px;
+    }
+    #preword {
+        padding-top: 80px;
+    }
+    #portfolio {
+        padding-top: 80px;
+    }
+    #printmedia {
+        padding-top: 80px;
+    }
+    #interview {
+        padding-top: 80px;
+    }
+    #crossmedia {
+        padding-top: 80px;
+    }
+    #interview_2 {
+        padding-top: 80px;
+    }
+    #druck3d {
+        padding-top: 80px;
+    }
+    #interview_3 {
+        padding-top: 80px;
+    }
+    #interview_2 {
+        padding-top: 80px;
+    }
+    #studienanfaenger {
+        padding-top: 80px;
+    }
+    #fieldreport {
+        padding-top: 80px;
+    }
+    .portfolio-modal .modal-content h2 {
+        font-size: 2.2em;
+    }
 }
 
 /**
@@ -926,6 +974,45 @@ section {
         height: 200px;
     }
     #fieldreport .fieldreport-icons {
-        height: 1800px;
+        height: 250px;
+    }
+    #fieldreport .statcounter {
+        height: 300px;
+    }
+    #preword {
+        padding-top: 60px;
+    }
+    #portfolio {
+        padding-top: 60px;
+    }
+    #printmedia {
+        padding-top: 60px;
+    }
+    #interview {
+        padding-top: 60px;
+    }
+    #crossmedia {
+        padding-top: 60px;
+    }
+    #interview_2 {
+        padding-top: 60px;
+    }
+    #druck3d {
+        padding-top: 60px;
+    }
+    #interview_3 {
+        padding-top: 60px;
+    }
+    #interview_2 {
+        padding-top: 60px;
+    }
+    #studienanfaenger {
+        padding-top: 60px;
+    }
+    #fieldreport {
+        padding-top: 60px;
+    }
+    .portfolio-modal .modal-content h2 {
+        font-size: 1.8em;
     }
 }

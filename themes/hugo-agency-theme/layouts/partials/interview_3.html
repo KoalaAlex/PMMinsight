@@ -1,48 +1,66 @@
 {{ "<!-- Theme -->" | safeHTML }}
-<section id="interview_3" class="bg-light-gray lg-de">
-  <div class="container lg-de">
-    <div class="row">
-      <div class="text-center">
-        <h2 class="section-heading">Interview</h2>
-        <h3 class="section-heading">über 3D-Druck</h2>
+<section id="interview_3" class="bg-light-gray">
+    <div class="container lg-de">
+        <div class="row">
+            <div class="text-center">
+                <h2 class="section-heading">Interview</h2>
+                <h3 class="section-heading">über 3D-Druck</h2>
         <h3 class="section-subheading text-muted">mit Prof. Dr.-Ing. Hartmann</h3>
-        <div class="slider">
-          <ul>
-          {{ range .Site.Params.interview_3.row }}
-          {{ range .list }}
-          <li id="{{ .id }}">
-              {{ if .title }}
-              <h4 class="section-heading">{{ .title | markdownify }}</h4>
-              {{ end }}
-              <h3 class="section-subheading text-muted">{{ .description | markdownify }}</h3>
-          </li>
-          {{ end }}
-          {{ end }}
-          </ul>
+                <div class="slider">
+                    <ul>
+                        {{ range .Site.Params.interview_3.row }} {{ range .list }}
+                        <li id="{{ .id }}">
+                            {{ if .title }}
+                            <h4 class="section-heading">{{ .title | markdownify }}</h4> {{ end }}
+                            <h3 class="section-subheading text-muted">{{ .description | markdownify }}</h3>
+                        </li>
+                        {{ end }} {{ end }}
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  <div class="container lg-en">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-         <h2 class="section-heading">Interview</h2>
-        <h3 class="section-heading">about 3D Printing</h2>
+
+    <div class="container lg-en">
+      <div class="row">
+          <div class="text-center">
+                <h2 class="section-heading">Interview</h2>
+                <h3 class="section-heading">About 3D Printing</h2>
         <h3 class="section-subheading text-muted">with Prof. Dr.-Ing. Hartmann</h3>
-        <div class="slider">
-          <ul>
-          {{ range .Site.Params.interview_3.row }}
-          {{ range .list }}
-          <li id="{{ .id }}">
-              {{ if .title }}
-              <h4 class="section-heading">{{ .title | markdownify }}</h4>
-              {{ end }}
-              <h3 class="section-subheading text-muted">{{ .description | markdownify }}</h3>
-          </li>
-          {{ end }}
-          {{ end }}
-          </ul>
+          </div>
       </div>
-    </div>
+      <div class="slidercontainer">
+          <div class="slider">
+              <ul>
+                  <li>
+                      <h4 class="section-heading">Before we discuss the 3D printing process, could you give me a short statement about our project PMMinsight – the crossbox.?</h4>
+                      <h3 class="section-subheading text-muted">"PMMinsight – the crossbox." is a successful example of the future trend for our major and the PMMinsight project in the crossmedia age. The bridge from the packaging progress to the homepage and to the practical 3D-printed object is especially impressive for me.</h3>
+                  </li>
+                  <li>
+                      <h4 class="section-heading">What do you think of the potentials of 3D printing for the printing industry?</h4>
+                      <h3 class="section-subheading text-muted">You have to look at and divide the fascination of 3D printing in the whole industry. 3D printing is essentially an additive manufacturing process. It provides completely new possibilities for the design of components. You have to consider them in 3D construction.</h3>
+                      <h3 class="section-subheading text-muted">The batch size 1 is the main point and the base of the 3D printer and is, therefore, predestined for prototype constructions, short runs and individualization. Other essential parts are the material properties, the stability and the tolerances of the finished element.</h3>
+                      <h3 class="section-subheading text-muted">In summary, you can say that a number of topics don't have a meaning in the printing industry. So know-how of these topics is usually lacking. My suggestion for the printing companies is to analyze the requirements of the market and one's own strengths very closely.</h3>
+                  </li>
+                  <li>
+                      <h4 class="section-heading">Skeptics say 3D printing has nothing to do with real printing. What do you think?</h4>
+                      <h3 class="section-subheading text-muted">At first sight, three-dimensional objects have nothing to do with printed objects. Certainly, the themes, color and color specification of the objects are a preserve of the printing industry. In addition, you can integrate themes, color spaces, profiles and proofs. These themes are very important for 3D objects too. The specialists of the printing industry are required for this and they have a unique feature. This is another reason to include 3D printing into our courses. We installed a new 3D printer at the university, so the integration was successful.</h3>
+                  </li>
+                  <li>
+                      <h4 class="section-heading">Are there special products/sectors you can imagine for the printing industry relating to 3D printing?</h4>
+                      <h3 class="section-subheading text-muted">I see opportunities in individual 3D-printed objects with a reference to the media industry. For example, advertising media or advertisement in the art, graphic, architecture or stage setting sectors. Another big division is the finishing process through 3D applications, i.e., the combination of classic printing processes with 3D printing.</h3>
+                  </li>
+                  <li>
+                      <h4 class="section-heading">Do you have an idea how 3D printing could change the printing industry?/h4>
+                      <h3 class="section-subheading text-muted">There are number of applications, for example, in aerospace, automotive engineering or medicine. So, you often have to find an interdisciplinary project to exploit the possibilities of 3D printing and need high demands for the qualifications and qualities of participants. Overall, there are totally new value-added chains. Furthermore, 3D printing will show its potential for product individualization and increase diversity.</h3>
+                  </li>
+                  <li>
+                      <h4 class="section-heading">The industry actually discusses 3D printing a lot – do you think that this innovation will be found in every household in the future?</h4>
+                      <h3 class="section-subheading text-muted">The hype will settle down a little bit and a realistic assessment will come. But this assessment will be hallmarked by growing distribution and applications.</h3>
+                      <h3 class="section-subheading text-muted">I don't expect 3D printing in every household. Instead, you will find 3D printing in every copy shop or hardware store, allowing the customer to print parts he created, aided by services for design and file types.</h3>
+                  </li>
+              </ul>
+          </div>
+      </div>
   </div>
 </section>
