@@ -1,11 +1,22 @@
 {{ "<!-- Theme -->" | safeHTML }}
 <section id="interview" class="bg-light-gray">
-  <div class="container lg-de">
-    <div class="row">
-      <div class="text-center">
-        <h2 class="section-heading">Interview</h2>
-        <h3 class="section-heading">über die PMM-Veränderung</h2>
+    <div class="container lg-de">
+        <div class="row">
+            <div class="text-center">
+                <h2 class="section-heading">Interview</h2>
+                <h3 class="section-heading">über die PMM-Veränderung</h2>
         <h3 class="section-subheading text-muted">mit Prof. Dr.-Ing. Witting</h3>
+            </div>
+        </div>
+    </div>
+
+<<<<<<< Updated upstream
+  <div class="container lg-en">
+      <div class="row">
+          <div class="text-center">
+        <h2 class="section-heading">Interview</h2>
+        <h3 class="section-heading">Bachelor Degree Change in Print Media Management</h2>
+        <h3 class="section-subheading text-muted">with Prof. Dr.-Ing. Witting</h3>
         <div class="slider">
           <ul>
           {{ range .Site.Params.theme.row }}
@@ -18,15 +29,25 @@
           {{ end }}
           </ul>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container lg-en">
-      <div class="row">
-          <div class="text-center">
-            <p>ENG DUMMY 3D Druck</p>
+=======
+    <div class="slidercontainer">
+        <div class="slider">
+            <ul>
+                {{ range .Site.Params.theme.row }} {{ range .list }}
+                <li id="{{ .id }}">
+                    <h4 class="section-heading">{{ .title | markdownify }}</h4>
+                    <h3 class="section-subheading text-muted">{{ .description | markdownify }}</h3>
+                </li>
+                {{ end }} {{ end }}
+            </ul>
         </div>
     </div>
-  </div>
+    <div class="container lg-en">
+        <div class="row">
+            <div class="text-center">
+                <p>ENG DUMMY 3D Druck</p>
+            </div>
+>>>>>>> Stashed changes
+        </div>
+    </div>
 </section>

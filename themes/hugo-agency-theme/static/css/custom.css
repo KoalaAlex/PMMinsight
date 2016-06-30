@@ -26,6 +26,10 @@ selection {
     min-height: 50%;
     min-width: 50%;
 }
+.slidercontainer {
+    text-align: center;
+    vertical-align: text-top;
+}
 .modal-body ul {
     list-style-type: none;
 }
@@ -76,6 +80,14 @@ selection {
 .yt2 {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+#starco {
+    height: 75vh;
+    margin-bottom: 0px;
+}
+#findspon {
+    height: 75vh;
+    margin-bottom: 0px;
 }
 
 /* Navbar */
@@ -437,7 +449,7 @@ section h3.section-subheading {
     margin-bottom: 30px;
 }
 section h3.section-heading {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 section p {
     margin-bottom: 20px;
@@ -479,7 +491,6 @@ section p {
     background-repeat: no-repeat;
     background-position: center;
 }
-
 #interview .unslider .slider,
 #interview_2 .unslider .slider,
 #interview_3 .unslider .slider,
@@ -489,7 +500,6 @@ section p {
     width: 80%;
     display: inline-block;
 }
-
 #interview .unslider a,
 #interview_2 .unslider a,
 #interview_3 .unslider a,
@@ -547,7 +557,6 @@ section p {
 }
 .slider ul {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 #portfolio a.portfolio-link img.img-responsive {
@@ -567,6 +576,7 @@ section p {
 }
 section {
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 #printmedia {
     padding-top: 100px;
@@ -577,7 +587,6 @@ section {
 .row {
     margin: 0px;
 }
-
 #modalAllSponsors .modal-content {
     background-color: rgba(0, 0, 0, 0.95);
 }
@@ -593,6 +602,7 @@ section {
     margin: 20px;
     display: inline-block;
 }
+<<<<<<< HEAD
 
 #animated_numbers {
   width: 600px;
@@ -696,6 +706,8 @@ section {
   margin-top: 100px;
 }
 
+=======
+>>>>>>> d9802f5d4faaf9bc1fb10b26e64486ea8c0d8dae
 @media (max-width: 768px) {
     #portfolio .col-md-3 {
         width: 50%;
@@ -730,7 +742,6 @@ section {
         background-image: url(../img/videoposter.png);
         background-size: cover;
         background-repeat: no-repeat;
-
     }
     .covervideo {
         display: none;
@@ -749,6 +760,12 @@ section {
     }
     h3 {
         font-size: 20px;
+    }
+    #crossmedia .crossmedia_icons {
+        height: 250px;
+    }
+    #fieldreport .fieldreport-icons {
+        height: 230px;
     }
 }
 
@@ -899,5 +916,19 @@ section {
     }
     .navbar-default .nav li a {
         font-size: 20px !important;
+    }
+    #modalAllSponsors .sponsors_svg img {
+        width: 90px;
+        margin: 5px;
+        display: inline-block;
+    }
+    #modalAllSponsors .modal-content h2 {
+        font-size: 2.6em;
+    }
+    #crossmedia .crossmedia_icons {
+        height: 200px;
+    }
+    #fieldreport .fieldreport-icons {
+        height: 1800px;
     }
 }
