@@ -111,6 +111,23 @@ videoJ.on('ended', function () {
     video.load();
 });
 
+var navOpen = false;
+function ToggleScrollable(){
+  if(navOpen === false){
+    $('body').bind('touchmove');
+    $('body').bind('scroll');
+    //$('body').css("overflow", "hidden");
+    //console.log("working true");
+    navOpen = true;
+  }
+  else{
+    $('body').unbind('touchmove');
+    $('body').unbind('scroll');
+    navOpen = false;
+    //$('body').css("overflow", "auto");
+  }
+}
+
 $(document).ready(function() {
   var url = window.location.href;
   if(url.indexOf('#load:') != -1) {
@@ -118,7 +135,6 @@ $(document).ready(function() {
   }
   // Beacuse the events is not fired at the start
   $(".navbar .navbar-header .navbar-toggle").addClass("collapsed");
-
 
   $(".portfolio-hover").hover(
   function() {
