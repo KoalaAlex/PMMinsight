@@ -602,7 +602,6 @@ section {
     margin: 20px;
     display: inline-block;
 }
-<<<<<<< HEAD
 
 #animated_numbers {
   width: 600px;
@@ -706,8 +705,6 @@ section {
   margin-top: 100px;
 }
 
-=======
->>>>>>> d9802f5d4faaf9bc1fb10b26e64486ea8c0d8dae
 @media (max-width: 768px) {
     #portfolio .col-md-3 {
         width: 50%;
