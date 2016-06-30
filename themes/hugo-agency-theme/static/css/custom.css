@@ -571,11 +571,37 @@ section {
 .row {
     margin: 0px;
 }
+
+#modalAllSponsors .modal-content {
+  background-color: rgba(0,0,0, 0.95);
+}
+
+#modalAllSponsors .modal-content h2{
+  background-color: white;
+}
+
+#modalAllSponsors .close-modal .lr, #modalAllSponsors .close-modal .rl{
+  background-color: white;
+}
+
+#modalAllSponsors .sponsors_svg img{
+  width: 200px;
+  margin: 20px;
+  display: inline-block;
+}
+
 @media (max-width: 767px) {
     #portfolio .col-md-3 {
         width: 50%;
         float: left;
     }
+
+    #modalAllSponsors .sponsors_svg img{
+      width: 120px;
+      margin: 10px;
+      display: inline-block;
+    }
+
     .navbar-default .navbar-collapse {
         width: 100vw;
     }
