@@ -15,7 +15,7 @@ selection {
     left: -50%;
     width: 200%;
     height: 200%;
-    
+
 }
 .covervideo {
     position: absolute;
@@ -575,7 +575,6 @@ section {
 .row {
     margin: 0px;
 }
-<<<<<<< HEAD
 
 #modalAllSponsors .modal-content {
   background-color: rgba(0,0,0, 0.95);
@@ -596,9 +595,6 @@ section {
 }
 
 @media (max-width: 767px) {
-=======
-@media (max-width: 768px) {
->>>>>>> 522597f12e5196b8d6be33c9e3cf65e3d11af21c
     #portfolio .col-md-3 {
         width: 50%;
         float: left;
@@ -634,7 +630,7 @@ section {
         background-image: url(../img/videoposter.png);
     background-size: cover;
     background-repeat: no-repeat;
-        
+
     }
     .covervideo {
         display: none;
