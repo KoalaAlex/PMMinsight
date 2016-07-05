@@ -127,7 +127,7 @@
     top: 0px;
 }
 .navbar-right {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .navbar-default .navbar-header {
     background-color: #888;
@@ -331,17 +331,19 @@
     height: 80px;
     padding-top: 15px;
 }
-#footer-bar .brands ul li {
-    color: white;
-}
-#footer-bar .brands ul li .imgx3 {
+#footer-bar ul{
     width: 100%;
 }
-#footer-bar .brands ul li .imgx3 > div {
+#footer-bar ul li {
+    color: white;
+    list-style: none;
+}
+#footer-bar ul li {
     float: left;
     width: 33.33%;
+    padding: 0 10px 0 10px;
 }
-#footer-bar .brands ul li .imgx3 img {
+#footer-bar ul li img {
     display: block;
     margin: auto;
     max-width: 100%;
@@ -559,10 +561,25 @@ section p {
 } */
 
 #footer-bar .all_sponsors {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
     text-align: center;
+    margin: auto;
 }
-#footer-bar .all_sponsors a {
+#footer-bar .all_sponsors span:first-child a{
     color: white;
+    float: right;
+}
+#footer-bar .all_sponsors span:last-child a{
+    color: white;
+    float: left;
+}
+#footer-bar .all_sponsors span {
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .slider ul {
     display: flex;
@@ -714,7 +731,12 @@ section {
   margin-top: 100px;
 }
 
+
+
 @media (max-width: 768px) {
+    #portfolio a.portfolio-link .portfolio-caption {
+        margin-top: -97px;
+    }
     #portfolio .col-md-3 {
         width: 50%;
         float: left;
