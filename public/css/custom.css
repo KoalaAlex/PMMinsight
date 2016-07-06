@@ -189,6 +189,9 @@
     width: 25px;
     right: 5px;
 }
+.quellenlink {
+    color: #777;
+}
 .cicon {
     background-image: url(../img/close.svg);
     height: 100%;
