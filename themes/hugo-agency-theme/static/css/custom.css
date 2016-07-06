@@ -567,19 +567,11 @@ section p {
     text-align: center;
     margin: auto;
 }
-#footer-bar .all_sponsors span:first-child a{
-    color: white;
-    float: right;
+#footer-bar .all_sponsors p{
+  color: white;
 }
-#footer-bar .all_sponsors span:last-child a{
-    color: white;
-    float: left;
-}
-#footer-bar .all_sponsors span {
-    float: left;
-    width: 50%;
-    padding-left: 10px;
-    padding-right: 10px;
+#footer-bar .all_sponsors p a{
+  color: white;
 }
 .slider ul {
     display: flex;
@@ -741,7 +733,7 @@ section {
         width: 50%;
         float: left;
     }
-    #modalAllSponsors .sponsors_svg img {
+    #modalAllSaponsors .sponsors_svg img {
         width: 120px;
         margin: 10px;
         display: inline-block;
